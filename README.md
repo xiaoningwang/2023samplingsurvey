@@ -1,6 +1,6 @@
 # 2023samplingsurvey
 
-# 2021SocialMedia
+
 
 
 ## 课程主页：https://xiaoningwang.github.io/teaching/20223samplingsurvey
@@ -17,11 +17,11 @@
 
 # 作业步骤：
 
-1）用个人账号登陆GitHub，并访问代码提交地址页面（https://github.com/xiaoningwang/2021SocialMedia）， 点击页面右上角的“Fork”按钮，拷贝2021SocialMedia库到个人账户下；
+1）用个人账号登陆GitHub，并访问代码提交地址页面（https://github.com/xiaoningwang/2023samplingsurvey）， 点击页面右上角的“Fork”按钮，拷贝2023samplingsurvey库到个人账户下；
 
-2）Fork成功后可以看到在个人账号下，新增了2021SocialMedia库；
+2）Fork成功后可以看到在个人账号下，新增了2023samplingsurvey库；
 
-3）在自己的2021SocialMedia页面内点击“New file”按钮，可以创建新文件；
+3）在自己的2023samplingsurvey页面内点击“New file”按钮，可以创建新文件；
 
 4）在fork后的自己仓库里创建一个markdown或Rmarkdown文件，文件名为所领词条序号+词条名（如0Survivalanalysis.md或0Survivalanalysis.Rmd**词条单词之间省去空格**），或在文件输入框中输入0Survivalanalysis.Rmd会自动创建子目录（0表示序号后面文字是词条名）；
 
@@ -29,13 +29,13 @@
 
 6）文件一旦填写好，在文件编辑框下方的“Commit new file” 编辑框中选填说明信息，然后点击“Commit new file”绿色按钮；
 
-7）此时markdown已经提交到个人账号的2021SocialMedia库中；
+7）此时markdown已经提交到个人账号的2023samplingsurvey库中；
 
-8）接着要开始把作业提交到教师的仓库xiaoningwang/2021SocialMedia，访问代码提交地址，并点击“New pull request”按钮；
+8）接着要开始把作业提交到教师的仓库xiaoningwang/2023samplingsurvey，访问代码提交地址，并点击“New pull request”按钮；
 
 9）在页面中继续点击“New pull request”按钮；
 
-10）页面显示个人账号的2021SocialMedia仓库和教师的xiaoningwang/2021SocialMedia仓库master分支的差异，点击“Create pull request”按钮；
+10）页面显示个人账号的2023samplingsurvey仓库和教师的xiaoningwang/2023samplingsurvey仓库master分支的差异，点击“Create pull request”按钮；
 
 11）选填提交的说明信息（此处写你的名字学号和撰写内容），继续点击“Create pull request”按钮；
 
@@ -53,6 +53,6 @@
 
 4.提交唯一一个完整的md文件；
 
-5.**作业最后提交截止时间2021年10月24日24点**
+5.**作业最后提交截止时间2023年3月30日24点**
 
 ## 有什么问题可在Issues里提交，我会集中回答。
