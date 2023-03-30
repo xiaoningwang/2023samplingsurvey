@@ -10,7 +10,7 @@
 
 $$E ( r _ { \alpha o t } ) = \sum _ { v _ { j \leq v } } E ( r _ { v } )$$ 
 
-其中，$$\theta _ { + }$$ 由 (9.3)  或 (9.4)  指定 。设这两个向量为$$\theta$$ 和$$\theta _ { + }$$按相应的向量如下：
+其中，$$\theta _ { + }$$ 由 (9.3)  或 (9.4)  指定 。设这两个向量为$$\theta$$和$$\theta_{+}$$按相应的向量如下：
 
 $$ \overrightarrow{\Omega}_{2}= \left\{ \left\{ 1 \right\} , \left\{ 2 \right\} , \left\{ 1,2 \right\} \right\}$$
 
@@ -25,7 +25,7 @@ $$T = \left( \begin{array}  { l l l  }  { 1 } & { 0 } & { - 1 } \\ { 0 } & { 1 }
 
 对于K =  3，
 
-$$T = \left( \begin{array}  { l l l l l  }  { 1 } & { 0 } & { 0 } & { - 1 } & { - 1 } & { 0 } & { 1 } \\ { 0 } & { 1 } & { 0 } & { - 1 } & { 0 } & { 1 } \\ { 0 } & { 0 } & { 1 } & { 0 } & { - 1 } & { - 1 } & { 1 } \\ { 0 } & { 0 } & { 0 }$$
+$$T= \begin{bmatrix} 1 \boxed 0 \boxed 0 \boxed -1 \boxed 1 \boxed 0 \boxed 1 \\ 0 \boxed 10 \boxed -1 \boxed 0 \boxed 1 \boxed 1 \\ 0 \boxed 0 \boxed 0 \boxed 1 \boxed 1 \boxed -1 \boxed 1 \\ 0 \boxed 0 \boxed 0 \boxed 0 \boxed 1 \boxed 0-1 \\ 0 \boxed 0 \boxed 0 \boxed 0 \boxed 0 \boxed 1 \boxed -1 \\ 0 \boxed 0 \boxed 0 \boxed 0 \boxed 0 \boxed 0 \boxed 1 \\ \end{bmatrix}$$
 
 a的MLE现在可以用牛顿-拉夫森方法得到 。一阶二阶导数如下 。a的分数的相应分量，由
 
