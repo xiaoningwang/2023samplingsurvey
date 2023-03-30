@@ -13,6 +13,7 @@ $$E ( r _ { \alpha o t } ) = \sum _ { v _ { j \leq v } } E ( r _ { v } )$$
 其中，$$\theta _ { + }$$ 由 (9.3)  或 (9.4)  指定 。设这两个向量为$$\theta$$ 和$$\theta _ { + }$$按相应的向量如下：
 
 $$ \overrightarrow{\Omega}_{2}= \left\{ \left\{ 1 \right\} , \left\{ 2 \right\} , \left\{ 1,2 \right\} \right\}$$
+
 $$ \overrightarrow{\Omega}_{3}= \left\{ \left\{ 1 \right\} , \left\{ 2 \right\} , \left\{ 3 \right\} , \left\{ 1,2 \right\} , \left\{ 1,3 \right\} , \left\{ 2,3 \right\} , \left\{ 1,2,3 \right\} \right\}$$
 
 对于$$C _ { 2 }$$和$$ \Omega _{3}$$。排列$$x$$和$$x+$$，因此这样
@@ -150,7 +151,7 @@ $$E(r|n; \widehat{\psi}_{\log})= \widehat{r}=E(r; \widehat{\alpha}_{\log})$$
 
 其中第一个方程对应于在e步中的计算，第二个方程是在m步中求解的分数方程。提供了MLE的一致性 (登普斯特等人，1977；Wu，1983) 对于$$x _ { w } \rightarrow \infty$$在$$w E Q _ { K }$$中，我们有
 
-$$x _ { \alpha } ^ { - 1 } E ( r _ { \alpha } | _ { \alpha } | _ { \alpha } | _ { \alpha } | _ { \alpha } | _ { \alpha } | _ { \alpha } | _ { \alpha } | _ { \alpha } | x _ { \alpha } | _ { \alpha } | _ { \alpha } | x _ { \alpha } | = x _ { \alpha } ^ { - 1 } | E ( r _ { \alpha } ^$$
+$$x_{\omega}^{-1}E(r_{\omega}|n_{\omega}; \widehat{\psi}_{\log})^{P}x_{\omega}^{-1}E(r_{\omega}|n_{\omega}; \psi _{\log}^{*})=x_{\omega}^{-1}E(r_{\omega}; \alpha ^{*})$$
 
 换句话说，在模型$$\psi \log$$对数下，估计的条件期望收敛于假设的完全数据，这样就产生伪真实的结果记(⇤)录作为基于完全数据对数似然的MLE 。记录我们将$$E ( r ; \psi ) ^ { * } \log )$$ 
 
