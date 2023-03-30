@@ -12,14 +12,14 @@ $$E ( r _ { \alpha o t } ) = \sum _ { v _ { j \leq v } } E ( r _ { v } )$$
 
 其中，$$\theta _ { + }$$ 由 (9.3)  或 (9.4)  指定 。设这两个向量为$$\theta$$ 和$$\theta _ { + }$$按相应的向量如下：
 
-$$\left. \begin{array}  { l  }  { S _ { 2 } = \{ \{ 1 \} , \{ 2 \} , \{ 1 , 2 \} \} } \\ { C _ { 3 } = \{ ( 1 \} , \{ 2 \} , \{ 3 \} , \{ 1 , 2 \} , \{ 1 , 3 \} , \{ 2 , 3 \} , \{ 1 , 2 , 3 \} \} } \end{array} \right.$$
+$$ \overrightarrow{\Omega}_{2}= \left\{ \left\{ 1 \right\} , \left\{ 2 \right\} , \left\{ 1,2 \right\} \right\}$$
+$$ \overrightarrow{\Omega}_{3}= \left\{ \left\{ 1 \right\} , \left\{ 2 \right\} , \left\{ 3 \right\} , \left\{ 1,2 \right\} , \left\{ 1,3 \right\} , \left\{ 2,3 \right\} , \left\{ 1,2,3 \right\} \right\}$$
 
 对于$$C _ { 2 }$$和$$ \Omega _{3}$$。排列$$x$$和$$x+$$，因此这样
 
 $$ \theta =C \theta _{+}\quad for \quad C=Diag(x)^{-1}\Gamma Diag(x_{+})$$
 
 其中，  对于K = 2，
-
 $$T = \left( \begin{array}  { l l l  }  { 1 } & { 0 } & { - 1 } \\ { 0 } & { 1 } & { - 1 } \\ { 0 } & { 0 } & { 1 } \end{array} \right)$$
 
 对于K =  3，
@@ -28,8 +28,7 @@ $$T = \left( \begin{array}  { l l l l l  }  { 1 } & { 0 } & { 0 } & { - 1 } & { 
 
 a的MLE现在可以用牛顿-拉夫森方法得到 。一阶二阶导数如下 。a的分数的相应分量，由
 
-$$\frac { \partial l } { \partial \alpha _ { \alpha _ { \alpha } } } = d ^ { T } ( \frac { \partial \theta } { \partial \alpha _ { \alpha _ { \alpha } } } ) = d ^ { T } ( c \frac { \partial \theta _ { + } } { \partial n } \frac { \partial _ { \alpha } } { \partial _ { \alpha } } ) = d ^ { T } C  A _ { \alpha$$ 
-
+$$ \frac{\partial \epsilon}{\partial \alpha _{\omega}}=d^{T}(\frac{\partial \theta}{\partial \alpha _{\omega}})=d^{T}(c \frac{\partial \theta _{+}}{\partial \eta}\frac{\partial \eta}{\partial \alpha _{\omega}})=d^{T}CDiag(w)\Delta _{\omega}$$
  
 
 
