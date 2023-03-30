@@ -2,7 +2,7 @@
 
 9.3.2最大似然估计
 
-最大似然估计 (MLE)  $$ \left\{ \theta _{\omega +}\right\}$$在模型 (9.3)  或 (9.4)  下，概念是简单的，只要有二项变量$$r _ { ( v ) }$$~二项式($$x _ { ( v ) }$$,  $$\theta _ { ( v ) }$$），  在每个交叉分类的列表域![img](file:///C:\Users\Silver\AppData\Local\Temp\ksohtml5976\wps8.jpg)中，(如果是 从a中随机抽样，  则只需要替换{ $$x _ { ( v ) }$$ }和{$$\theta _ { ( v ) }$$} 根据相应的观察域大小和误差 。然后给对数似然值为
+最大似然估计 (MLE)  $$ \left\{ \theta _{\omega +}\right\}$$在模型 (9.3)  或 (9.4)  下，概念是简单的，只要有二项变量$$r _ { ( v ) }$$~二项式($$x _ { ( v ) }$$,$$\theta _ { ( v ) }$$），  在每个交叉分类的列表域![img](file:///C:\Users\Silver\AppData\Local\Temp\ksohtml5976\wps8.jpg)中，(如果是 从a中随机抽样，  则只需要替换{$$x_{(v)}$$}和{$$\theta _ { ( v ) }$$} 根据相应的观察域大小和误差 。然后给对数似然值为
 
  $$e(\alpha ;r)= \sum _{\omega \in \Omega _{K}}r_{\omega}\log \theta _{\omega}+y_{\omega}\log(1- \theta _{\omega})$$
 
@@ -19,6 +19,7 @@ $$E ( r _ { \alpha o t } ) = \sum _ { v _ { j \leq v } } E ( r _ { v } )$$
 $$ \theta =C \theta _{+}\quad for \quad C=Diag(x)^{-1}\Gamma Diag(x_{+})$$
 
 其中，  对于K = 2，
+
 <img width="112" alt="image" src="https://user-images.githubusercontent.com/127223778/228711122-f1318791-8423-4575-be3a-29bcd17fde97.png">
 
 
