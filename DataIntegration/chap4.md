@@ -79,7 +79,7 @@ $$x _ { N } = ( x _ { 1 } \cdots , x _ { N } ) , y _ { N } = ( y _ { 1 } \cdots 
 
 &emsp;&emsp;(X，Y，Z) 在整个总体上的概括描述能力本质上等同于联合总体分布函数（简称p.d.f.）的概括描述能力 
 
- $$H _ { N } ( x , y , z ) = \frac { 1 } { N } \sum _ { i = 1 } ^ { N } I _ { ( x _ { i }\leq x ) }{ I } _ { ( y _ { i } \leq y ) }{ I } _ { ( z_ { i } \leq z ) }, x,y,z\in R \tag{4.2}$$ 
+ $$H _ { N } ( x , y , z ) = \frac { 1 } { N } \sum _ { i = 1 } ^ { N } I _ { ( x _ { i }\leq x ) }{ I } _ { ( y _ { i } \leq y ) }{ I } _ { ( z_ { i } \leq z ) }, x,y,z\in \mathbb{R} \tag{4.2}$$ 
 
 其中 $I _ { ( \phi ) }$ 是所有单元总体 $\phi$  的标志。设 
 
@@ -125,7 +125,7 @@ $$H _ { N } ( y , z | x ) = \frac { H _ { N } ( x , y , z ) } { p _ { N } ( x ) 
 
 &emsp;&emsp;统计匹配旨在结合 $s _ { A }$ 和 $s _ { B }$ 中的信息。更准确地说，在“宏观”层面上，统计匹配的目标在于使用样本数据 
 
-$$\{( x _ { i } , y _ { i } ) ; i \in s _ { A }\},\{( x _ { i } , z _ { i } ) ; i \in  s _ { B }\}\tag{4.10}$$
+$$ \{ ( x _ { i } , y _ { i } ) ; i \in s _ { A } \} , \{ ( x _ { i } , z _ { i } ) ; i \in  s _ { B } \} \tag{4.10}$$
 
 来估计联合p.d.f.(4.2)。
 
