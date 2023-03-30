@@ -2,7 +2,7 @@
 
 9.3.2最大似然估计
 
-最大似然估计 (MLE)  $$ \left\{ \theta _{\omega +}\right\}$$在模型 (9.3)  或 (9.4)  下，概念是简单的，只要有二项变量$$r _ { ( v ) }$$~二项式($$x _ { ( v ) }$$,$$\theta _ { ( v ) }$$），  在每个交叉分类的列表域![img](file:///C:\Users\Silver\AppData\Local\Temp\ksohtml5976\wps8.jpg)中，(如果是 从a中随机抽样，  则只需要替换{$$x_{(v)}$$}和{$$\theta _ { ( v ) }$$} 根据相应的观察域大小和误差 。然后给对数似然值为
+最大似然估计 (MLE)  $$ \left\{ \theta _{\omega +}\right\}$$在模型 (9.3)  或 (9.4)  下，概念是简单的，只要有二项变量$$r_{\omega}$$~二项式($$x_{\omega}$$,$$ \theta _{\omega}$$，  在每个交叉分类的列表域![img](file:///C:\Users\Silver\AppData\Local\Temp\ksohtml5976\wps8.jpg)中，(如果是 从a中随机抽样，  则只需要替换{$$x_{(v)}$$}和{$$\theta _ { ( v ) }$$} 根据相应的观察域大小和误差 。然后给对数似然值为
 
  $$e(\alpha ;r)= \sum _{\omega \in \Omega _{K}}r_{\omega}\log \theta _{\omega}+y_{\omega}\log(1- \theta _{\omega})$$
 
