@@ -169,12 +169,13 @@ $$
 \mu  _ { y z | x }=\begin{bmatrix}
 { \mu _ { y } + \beta _ { y / x } ( x - \mu _ { x } ) }\\
 { \mu _ { z } + \beta _ { z / x } ( x - \mu _ { x } ) }\\
-\end{bmatrix}\,tag{4.14}
+\end{bmatrix},\tag{4.14}
 $$
+
 $$
 \\Sigma_ { y z | x }=\begin{bmatrix}
-{ \sigma  _ { y } ^ { 2 }(1-\rho _ { x y } ^ { 2 })}&{ \sigma _ { y } \sigma _ { z }(\rho _ { yx }-\rho _ { x y } \rho _ { x z })}\\
-{ \sigma _ { y } \sigma _ { z }(\rho _ { yx }-\rho _ { x y } \rho _ { x z }) }&{ \sigma _ { z }^ { 2 }(1-\rho _ { x z } ^ { 2 }) }\\
+{ \sigma _ { y } ^ { 2 }(1-\rho _ { x y } ^ { 2 })}&{ \sigma _ { y } \sigma _ { z }(\rho _ { y x }-\rho _ { x y } \rho _ { x z })}\\
+{ \sigma _ { y } \sigma _ { z }(\rho _ { y x }-\rho _ { x y } \rho _ { x z }) }&{ \sigma _ { z }^ { 2 }(1-\rho _ { x z } ^ { 2 }) }\\
 \end{bmatrix}\tag{4.15}
 $$
 
