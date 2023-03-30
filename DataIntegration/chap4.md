@@ -150,21 +150,33 @@ $$m a x ( 0 , F _ { N } ( y | x ) + G _ { N } ( z | x ) - 1 ) \leq H _ { N } ( y
 &emsp;&emsp; **示例1--多正态分布--** 自[2]以来，这个例子已经得到了广泛的研究。设 X，Y，Z 为联合多正态分布，平均向量和协方差矩阵分别等于
 
 $$
-\mu=\begin{array}{ccc}
-x_1 & x_2 & \dots \\
-x_3 & x_4 & \dots \\
-\vdots & \vdots & \ddots
-\end{array}
+\mu=\begin{bmatrix}
+\mu_{x}\\
+\mu_{y}\\
+\mu_{z}\\
+\end{bmatrix},
+\Sigma=\begin{bmatrix}
+\sigma _{x}^2&\sigma _{x y}&\sigma _{x z}\\
+\sigma _{x y}&\sigma _{y}^2&\sigma _{y z}\\
+\\sigma _{x z}&\sigma _{y z}&\sigma _{z}^2\\
+\end{bmatrix}\tag{4.13}
 $$
 
-
-$$\mu=\begin{bmatrix} \mu_{x} \\  \mu_{y} \\  \mu_{z} \end{bmatrix}, \Sigma= \begin{bmatrix} \sigma _{x}^2 & \sigma _{x y} & \sigma _{x z}  \\  \sigma _{x y} & \sigma _{y}^2 & \sigma _{y z}  \\  \sigma _{x z}  & \sigma _{y z}   &  \sigma _{z}^2\end{bmatrix} \tag{4.13}$$
  
 在此条件下，X,（Y，Z）确实具有联合二元正态分布，其均值向量和协方差矩阵很容易从（4.13）中获得，由下式给出
 
-$$\mu  _ { y z | x } = \left[ \begin{array}  { l  }  { \mu _ { y } + \beta _ { y / x } ( x - \mu _ { x } ) } \\ { \mu _ { z } + \beta _ { z / x } ( x - \mu _ { x } ) } \end{array} \right],\tag{4.14}$$
-
-$$\Sigma_ { y z | x }  = \left[ \begin{array}  { l l }  { \sigma  _ { y } ^ { 2 }(1-\rho _ { x y } ^ { 2 })}& { \sigma _ { y } \sigma _ { z }(\rho _ { yx }-\rho _ { x y } \rho _ { x z })}\\ { \sigma _ { y } \sigma _ { z }(\rho _ { yx }-\rho _ { x y } \rho _ { x z }) } & { \sigma _ { z }^ { 2 }(1-\rho _ { x z } ^ { 2 }) }  \end{array} \right]\tag{4.15}$$.
+$$
+\mu  _ { y z | x }=\begin{bmatrix}
+{ \mu _ { y } + \beta _ { y / x } ( x - \mu _ { x } ) }\\
+{ \mu _ { z } + \beta _ { z / x } ( x - \mu _ { x } ) }\\
+\end{bmatrix}\,tag{4.14}
+$$
+$$
+\\Sigma_ { y z | x }=\begin{bmatrix}
+{ \sigma  _ { y } ^ { 2 }(1-\rho _ { x y } ^ { 2 })}&{ \sigma _ { y } \sigma _ { z }(\rho _ { yx }-\rho _ { x y } \rho _ { x z })}\\
+{ \sigma _ { y } \sigma _ { z }(\rho _ { yx }-\rho _ { x y } \rho _ { x z }) }&{ \sigma _ { z }^ { 2 }(1-\rho _ { x z } ^ { 2 }) }\\
+\end{bmatrix}\tag{4.15}
+$$
 
 &emsp;&emsp;设 $\rho _ { xy }$ , $\rho _ { xz }$ , $\rho _ { yz }$ 分别是（X，Y）,（X，Z）,（Y，Z）之间的相关系数。唯一未确定的参数是 $\rho _ { yz }$ ，即 Y 和 Z 之间的相关系数。
 
