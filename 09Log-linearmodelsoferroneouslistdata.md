@@ -19,17 +19,18 @@ $$E ( r _ { \alpha o t } ) = \sum _ { v _ { j \leq v } } E ( r _ { v } )$$
 $$ \theta =C \theta _{+}\quad for \quad C=Diag(x)^{-1}\Gamma Diag(x_{+})$$
 
 其中，  对于K = 2，
-$$T = \left( \begin{array}  { l l l  }  { 1 } & { 0 } & { - 1 } \\ { 0 } & { 1 } & { - 1 } \\ { 0 } & { 0 } & { 1 } \end{array} \right)$$
+<img width="112" alt="image" src="https://user-images.githubusercontent.com/127223778/228711122-f1318791-8423-4575-be3a-29bcd17fde97.png">
+
 
 对于K =  3，
 
-$$T= \begin{bmatrix} 1 \boxed 0 \boxed 0 \boxed -1 \boxed 1 \boxed 0 \boxed 1 \\ 0 \boxed 10 \boxed -1 \boxed 0 \boxed 1 \boxed 1 \\ 0 \boxed 0 \boxed 0 \boxed 1 \boxed 1 \boxed -1 \boxed 1 \\ 0 \boxed 0 \boxed 0 \boxed 0 \boxed 1 \boxed 0-1 \\ 0 \boxed 0 \boxed 0 \boxed 0 \boxed 0 \boxed 1 \boxed -1 \\ 0 \boxed 0 \boxed 0 \boxed 0 \boxed 0 \boxed 0 \boxed 1 \\ \end{bmatrix}$$
+<img width="198" alt="image" src="https://user-images.githubusercontent.com/127223778/228711170-e0ac54f9-7435-4e4b-9d48-139d08123591.png">
+
 
 a的MLE现在可以用牛顿-拉夫森方法得到 。一阶二阶导数如下 。a的分数的相应分量，由
 
 $$ \frac{\partial \epsilon}{\partial \alpha _{\omega}}=d^{T}(\frac{\partial \theta}{\partial \alpha _{\omega}})=d^{T}(c \frac{\partial \theta _{+}}{\partial \eta}\frac{\partial \eta}{\partial \alpha _{\omega}})=d^{T}CDiag(w)\Delta _{\omega}$$
  
-
 
 
 204.综合数据分析
