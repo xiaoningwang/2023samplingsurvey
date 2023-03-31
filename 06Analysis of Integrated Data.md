@@ -8,8 +8,7 @@
 >
 > 在GBA、WWB和LADIS寄存器中的交叉分类计数。
 
-![](./media/image1.png){width="4.642361111111111in"
-height="1.1291666666666667in"}
+![image](https://github.com/lllllllhhhhhhh7/2023samplingsurvey/blob/main/image1.png)
 
 > 各种对数线性模型估计了所有登记册中无家可归者的数量， 即m ;在本文的表示法中， 可以使用三个寄存器中的两个或所有三个寄存器得到 。然而，估计数的 范围远在5635到27223之间。他们中的许多人要么完全符合数据或几乎符合数据。模型的选择似乎包括基于一个正式的程序， 如LRT或Akaike信息准则 (AIC)。
 > 
@@ -20,8 +19,7 @@ height="1.1291666666666667in"}
 >对于上面的(b)， 我们可以使用表9.5中的数据拟合$$i E W$$和$$i  Z$$，$$i E G$$是有条件独立 的 。这产生$$m _ { 0 }$$= 10434和偏差10.98 。而$$m _ { 0 }$$与附加协变量的最佳估计相比是合理 的， 模型的p值仅为0.001基于一个自由度 。要理解这一点， 请注意， 条件独立 性意味着
 
 -----------------------------------------------------------------------
-  ![](./media/image2.png){width="3.1006944444444446in"
-  height="0.46319444444444446in"}
+  ![image](https://github.com/lllllllhhhhhhh7/2023samplingsurvey/blob/main/image2.png)
 
 
 
@@ -31,13 +29,14 @@ $$P r ( i E Z | i E W , i z G ) = P r ( i E Z | i z W , i z G ) = \pi _ { 0 }$$
 
 第二个方程得出估计值
 
-![](./media/image3.png){width="1.6152777777777778in"
-height="0.2625in"}
+![image](https://github.com/lllllllhhhhhhh7/2023samplingsurvey/blob/main/image3.png)
+
 
 ​                                                  $$m _ { 0 } = 654 ( 1 - \pi _ { 0 } ) / \pi _ { 0 }$$
 
-> ![](./media/image4.png){width="4.6409722222222225in"
-> height="0.39166666666666666in"}
+> ![image](https://github.com/lllllllhhhhhhh7/2023samplingsurvey/blob/main/image4.png)
+
+
 >
 > $$\pi _ { 0 } = P r ( i e Z | i e W , i z G ) = 175 / ( 175 + 2792 ) \approx 0.059$$
 >
@@ -45,11 +44,11 @@ height="0.2625in"}
 > 其 中左边和右边的估计值分别由，
 
 -----------------------------------------------------------------------
-  ![](./media/image5.png){width="2.84in" height="0.49333333333333335in"}
+  ![iamge](https://github.com/lllllllhhhhhhh7/2023samplingsurvey/blob/main/image5.png)
 
 -----------------------------------------------------------------------
 
-![](./media/image6.png){width="9.999890638670167e-2in"
+![image](https://github.com/lllllllhhhhhhh7/2023samplingsurvey/blob/main/image6.png)
 height="0.4249989063867017in"}
 
 > *214.综合数据分析*
@@ -60,7 +59,7 @@ height="0.4249989063867017in"}
 >
 > 替代估计$$m _ { 0 }$$和相关的偏差。
 
-![](./media/image7.png){width="4.61875in" height="1.4625in"}
+![iamge](https://github.com/lllllllhhhhhhh7/2023samplingsurvey/blob/main/image7.png)
 
 现在， 通过改变计数n， 很容易验证100从999到396， 但保留所有其他计数 ，将保留估计$$m _ { 0 }$$= 10434， 同时将模型\[GW\]\[GZ\]的偏差降低到零 。换句话说，这是 这个模型下的伪真数据 。在表9.6中， 我们比较了$$m _ { 0 }$$的估计值以及基于原始数据 的四个最佳拟合模型的相关偏差， 其中$$n _ { 100 }$$= 999，以那些基于规定的伪真数据 的$$n _ { 100 }$$被更改为396 (即，允许在GBA中进行错误的枚举) 。这种变化被认为是为 了提高拟合优度，并稳定了估计值。
 
@@ -76,21 +75,18 @@ height="0.4249989063867017in"}
 >
 > 日志和logit模型的结果。
 
-![](./media/image8.png){width="4.647916666666666in"
-height="2.2618055555555556in"}
+![image](https://github.com/lllllllhhhhhhh7/2023samplingsurvey/blob/main/image8.png)
 
 > 这里是对数模型， 因此估计量是高度不确定的， 尽管偏差很小。原因是在GBA和 LADIS寄存器之间只有非常小的重叠，即列表域A12只有54个单位， 而大多数记录 都在两个寄存器中， 带有x1=1494和x2= 829.这种情况与第9.4.2节中所考虑的 情况完全不同，其中大部分单元都在重叠的列表域中A12.
 > 
 > 当GBA或LADIS寄存器被视为枚举调查时， 日志模型和logit模型之间几乎没有任何差异 。在这两组模型下， WWB寄存器估计具有较低的列表错误概率，其中四 分之三的估计为✓ *W+*对于✓ 中低于1%， 甚至更低 *WZ+*或✓*GW+*.这证实了库曼斯等 人的信任 。 (2017) 。然而，虽然这两组模型几乎偏差为零， 但它们给出了非常 准确的↵ 估计;.
 > 
-> 估计$$m _ { 0 }$$ S = LADIS的对数模型与上述对数线性模型\[GW\]\[GZ\]下相同。事实上 ，估计的误差概率是![](./media/image9.png){width="7.339129483814523e-2in"
->height="0.20999890638670166in"}*G*=0.602在GBA-only域， 即$$r _ { G }$$=999![](./media/image10.png){width="7.339129483814523e-2in"
-> height="0.20999890638670166in"}*G*=602和![](./media/image11.png){width="7.005577427821523e-2in"
-> height="0.178332239720035in"}*G*= 999−602= 397， 与之前表9.6中所规定的伪真数据值基本相同 。这表明，正式开发的列表误差模型可以提供一种更理论化的方法来取代上述的探索性分析。
+> 估计$$m _ { 0 }$$ S = LADIS的对数模型与上述对数线性模型\[GW\]\[GZ\]下相同。事实上 ，估计的误差概率是![image](https://github.com/lllllllhhhhhhh7/2023samplingsurvey/blob/main/image9.png)
+> *G*=0.602在GBA-only域， 即$$r _ { G }$$=999![](https://github.com/lllllllhhhhhhh7/2023samplingsurvey/blob/main/image10.png)*G*=602和![image](https://github.com/lllllllhhhhhhh7/2023samplingsurvey/blob/main/image11.png)*G*= 999−602= 397， 与之前表9.6中所规定的伪真数据值基本相同 。这表明，正式开发的列表误差模型可以提供一种更理论化的方法来取代上述的探索性分析。
 > 
 > 估计$$m _ { 0 }$$在使用S = GBA的log和logit模型下， 这些数字都要低得多， 大约是
-> 5500个 。此外， 估计LADIS寄存器具有很高的误差概率，其中![](./media/image12.png){width="7.310476815398076e-2in"
->height="0.20999890638670166in"}*Z*约为0.77 。根据LADIS寄存器的来源， 我们根本不知道这是否合理。如果我们能获得额外的协变 量，我们就可以用足够的自由度来拟合更详细的模型 。很有可能， 模型的选择可以基于一个正式的程序， 如LRT或AIC， 就像Coumans等人的研究一样 。(2017).然 而， 由于缺乏这个选项，我们将使用潜在的LRC来评估这两组模型。
+> 5500个 。此外， 估计LADIS寄存器具有很高的误差概率，其中![image](https://github.com/lllllllhhhhhhh7/2023samplingsurvey/blob/main/image12.png)
+> *Z*约为0.77 。根据LADIS寄存器的来源， 我们根本不知道这是否合理。如果我们能获得额外的协变 量，我们就可以用足够的自由度来拟合更详细的模型 。很有可能， 模型的选择可以基于一个正式的程序， 如LRT或AIC， 就像Coumans等人的研究一样 。(2017).然 而， 由于缺乏这个选项，我们将使用潜在的LRC来评估这两组模型。
 > 
 > *216综合数据分析*
 
@@ -102,19 +98,18 @@ height="2.2618055555555556in"}
 > 
 > LRC选择标志着
 
-![](./media/image13.png){width="4.620833333333334in"
-height="2.2506944444444446in"}
+![image](https://github.com/lllllllhhhhhhh7/2023samplingsurvey/blob/main/image13.png)
 
 > 总结了使用S = GBA或LADIS的两组模型之间的比较 。前两个比较(I)和 (II)是在log模型和logit模型之间进行的， 假设有相同的枚举调查 。偏差的误差很小， 但两种情况下对数模型都受到潜在LRC的青睐 。接下来的四个比较(III ) - (VI) 是假设不同枚举调查的模型之间的比较 。潜在的偏差更大它们之间的差异也更大 。然而，
 
 > 当假设相同的枚举调查计算伪真实数据时， 无论是GBA还是LADIS寄存器，潜在偏 差的大小大致相同 。这表明，关于枚举调查的假设比链接函数的选择更能影响结 果 。事实上，在所有情况下， 假设S = LADIS的模型都有利于潜在的LRC， 无论链接函数的选择如何， 这产生了估计mˆ ;根据Coumans等人获得的结果，这更为可信 。 (2017) ， 在其他协变量的帮助下 。因此，该分析提供了一个实证的例子， 即 潜在的LRC在存在缺失数据的情况下，模型选择可以成功， 其中标准的形式程序-像轻轨列车和AIC这样的考验是没有用的。
 
-![](./media/image14.png){width="4.655in"
+![image](https://github.com/lllllllhhhhhhh7/2023samplingsurvey/blob/main/image14.png){width="4.655in"
 height="5.361001749781277e-2in"}
 
 > 参考书目
 >
-> ![](./media/image15.png){width="7.833333333333334e-2in"
+> ![image](https://github.com/lllllllhhhhhhh7/2023samplingsurvey/blob/main/image15.png){width="7.833333333333334e-2in"
 > height="0.16666666666666666in"}\[1\] Bhning， D.， 范德海登，
 > P.G.M.和邦吉， J 。 (2017).*捕获-*
 > *为社会和医学科学提供的再捕获方法。*查普曼和霍尔/CRC。
@@ -177,6 +172,6 @@ height="5.361001749781277e-2in"}
 >
 > 张\[14\]， LC 。.- 和邓恩， J 。 (2017) .*修剪双系统估计。*
 >
-> *在社会和医学科学的捕获-再捕获方法中。D.*![](./media/image16.png){width="5.8875765529308836e-2in"
+> *在社会和医学科学的捕获-再捕获方法中。D.*![image](https://github.com/lllllllhhhhhhh7/2023samplingsurvey/blob/main/image16.png){width="5.8875765529308836e-2in"
 > height="0.175in"}*Bhning,* *P.G.M.范德海伊登* *和J。*， 第17章， 页
 > 。239 -- 260.查普曼和霍尔/CRC。
