@@ -41,7 +41,9 @@ $$\pi ^ { A B X } \sim D i r ( \alpha _ { a b x } ^ { A B X } ) \quad  \quad \pi
 
 $$\pi ^ { A B | X } \sim D i r ( \alpha _ { a b | x } ) ( x = 0 , 1 ) , \quad \pi ^ { C D | X } \sim Dir (\alpha_ { cd|x } ^ {C D | X }  ) ( x = 0 , 1 )$$
 
-和一个Beta分布：$\pi ^ { X } \sim B e t a ( \alpha _ { 0 } ^ { X } , \alpha _ { 1 } ^ { X } )$ 。
+和一个Beta分布：
+
+$$\pi ^ { X } \sim B e t a ( \alpha _ { 0 } ^ { X } , \alpha _ { 1 } ^ { X } )$$ 
 
 ​        &emsp;Dirichlet的非信息先验可以设置所有参数(参数)为1/2(遵循多项抽样的Jeffreys先验)，或为1(遵循均匀分布)。相反，如果我们想包含一些先验知识，我们可以将狄利克雷参数的通常解释作为“伪计数”添加到实际计数 $n_{\vec{y}}$ 中。例如，如果我们认为源Y几乎没有过度覆盖，我们会设置 $\alpha_{0|0}^{Y|X}$ 比 $\alpha _ {1|0}^{Y|X}$ 大.
 ​        &emsp;仍然需要在 $n_ {\vec{0}}$ 上设置先验分布，或者等价地，在N上设置先验分布。以下是文献中关于贝叶斯捕获-再捕获的常见选项:
