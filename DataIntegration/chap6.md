@@ -1,4 +1,4 @@
-2021216083006 徐棱霄 第六章P126-130
+**2021216083006 徐棱霄 第六章P126-130**
 
 $\left(\mathbf{M}_{2}\right)$ 参数 $\psi $ 的抽样分布是点可识别的，并且 MLE  $\widehat{\psi}$  使得 $\widehat{\psi} \stackrel{\operatorname{Pr}}{\rightarrow} \psi_{0}$ , 渐近为 n $\rightarrow \infty$ , 其中 $\psi_{0}$ 是真正的参数值。
 
