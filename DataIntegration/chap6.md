@@ -1,4 +1,4 @@
-2021216083006徐棱霄 （翻译第六章第二部分 P126-130）
+**2021216083006 徐棱霄 第六章P126-130**
 
 $\left(\mathbf{M}_{2}\right)$ 参数 $\psi $ 的抽样分布是点可识别的，并且 MLE  $\widehat{\psi}$  使得 $\widehat{\psi} \stackrel{\operatorname{Pr}}{\rightarrow} \psi_{0}$ , 渐近为 n $\rightarrow \infty$ , 其中 $\psi_{0}$ 是真正的参数值。
 
@@ -72,3 +72,5 @@ $$\widehat{A}_{h}=\left\{\theta: c(\theta ; \widehat{\psi}) \geq \max _{\theta} 
 1. 从 $f\left(d_{n} ; \widehat{\psi}\right)$生成 $d_{n}^{(b)}$ , 并得到 $\widehat{\psi}^{(b)}$ ;
 2. 对于任何给定的h，在 $0 \leq h<1$的情况下 ,  在 $\widehat{\psi}^{(b)}$ 处获得$\widehat{A}_{h}^{(b)} $ ，与在 $\widehat{\psi}$ 获得$\widehat{A}_{h}$ 的方法相同, 并且相应的  $L^{(b)}=L\left(\widehat{A}_{h}^{(b)}\right)$ 及 $U^{(b)}=U\left(\widehat{A}_{h}^{(b)}\right)$ ;
 3. 设 $\delta^{(b)}=1$ 如果  $\widehat{L} \leq L^{(b)}<U^{(b)} \leq \widehat{U}$ ,否则  $\delta^{(b)}=0$。
+
+$\left(\mathbf{M}_{2}\right) $ 参数 $\psi $ 的抽样分布是点可识别的，并且 MLE  $\widehat{\psi}$  使得 $\widehat{\psi} \stackrel{\operatorname{Pr}}{\rightarrow} \psi_{0}$ , 渐近为 n $\rightarrow \infty$ , 其中 $\psi_{0}$ 是真正的参数值。
