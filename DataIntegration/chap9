@@ -30,10 +30,6 @@ a的MLE现在可以用牛顿-拉夫森方法得到 。一阶二阶导数如下 �
 
 $$\frac { \partial l } { \partial \alpha _ { \alpha _ { \alpha } } } = d ^ { T } ( \frac { \partial \theta } { \partial \alpha _ { \alpha _ { \alpha } } } ) = d ^ { T } ( c \frac { \partial \theta _ { + } } { \partial n } \frac { \partial _ { \alpha } } { \partial _ { \alpha } } ) = d ^ { T } C  A _ { \alpha$$ 
 
- 
-
-
-
 204.综合数据分析
 
 其中$$A _ { w }$$是∆的对应列，为$$A ^ { T } = T ^ { - 1 }$$和$$n = A \alpha$$在 (9.3)  和 (9.4)  下，以及衍生物的向量d都有分量
