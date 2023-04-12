@@ -1,8 +1,9 @@
-错误列表数据的对数-线性模型203
-
+## **以下内容由张馨引填写**
+## **内容如下**
+## **错误列表数据的对数-线性模型203**
 9.3.2最大似然估计
 
-最大似然估计 (MLE)  $$ \left\{ \theta _{\omega +}\right\}$$在模型 (9.3)  或 (9.4)  下，概念是简单的，只要有二项变量$$r_{\omega}$$~二项式($$x_{\omega}$$,$$ \theta _{\omega}$$，  在每个交叉分类的列表域![img](file:///C:\Users\Silver\AppData\Local\Temp\ksohtml5976\wps8.jpg)中，(如果是 从a中随机抽样，  则只需要替换{$$x_{(v)}$$}和{$$\theta _ { ( v ) }$$} 根据相应的观察域大小和误差 。然后给对数似然值为
+最大似然估计 (MLE)  {$$\theta _ { ( a ) + 1 }$$}在模型 (9.3)  或 (9.4)  下，概念是简单的，只要有二项变量$$r _ { ( v ) }$$~二项式($$x _ { ( v ) }$$,  $$\theta _ { ( v ) }$$），  在每个交叉分类的列表域![img](file:///C:\Users\Silver\AppData\Local\Temp\ksohtml5976\wps8.jpg)中，(如果是 从a中随机抽样，  则只需要替换{ $$x _ { ( v ) }$$ }和{$$\theta _ { ( v ) }$$} 根据相应的观察域大小和误差 。然后给对数似然值为
 
  $$e(\alpha ;r)= \sum _{\omega \in \Omega _{K}}r_{\omega}\log \theta _{\omega}+y_{\omega}\log(1- \theta _{\omega})$$
 
@@ -10,9 +11,9 @@
 
 $$E ( r _ { \alpha o t } ) = \sum _ { v _ { j \leq v } } E ( r _ { v } )$$ 
 
-其中，$$\theta _ { + }$$ 由 (9.3)  或 (9.4)  指定 。设这两个向量为$$\theta$$和$$\theta_{+}$$按相应的向量如下：
+其中，$$\theta _ { + }$$ 由 (9.3)  或 (9.4)  指定 。设这两个向量为$$\theta$$ 和$$\theta _ { + }$$按相应的向量如下：
 
-<img width="215" alt="image" src="https://user-images.githubusercontent.com/127223778/228711005-35fea33d-0c5c-4bb9-87ef-029b5c22a44b.png">
+$$\left. \begin{array}  { l  }  { S _ { 2 } = \{ \{ 1 \} , \{ 2 \} , \{ 1 , 2 \} \} } \\ { C _ { 3 } = \{ ( 1 \} , \{ 2 \} , \{ 3 \} , \{ 1 , 2 \} , \{ 1 , 3 \} , \{ 2 , 3 \} , \{ 1 , 2 , 3 \} \} } \end{array} \right.$$
 
 对于$$C _ { 2 }$$和$$ \Omega _{3}$$。排列$$x$$和$$x+$$，因此这样
 
@@ -20,18 +21,18 @@ $$ \theta =C \theta _{+}\quad for \quad C=Diag(x)^{-1}\Gamma Diag(x_{+})$$
 
 其中，  对于K = 2，
 
-<img width="112" alt="image" src="https://user-images.githubusercontent.com/127223778/228711122-f1318791-8423-4575-be3a-29bcd17fde97.png">
-
+$$T = \left( \begin{array}  { l l l  }  { 1 } & { 0 } & { - 1 } \\ { 0 } & { 1 } & { - 1 } \\ { 0 } & { 0 } & { 1 } \end{array} \right)$$
 
 对于K =  3，
 
-<img width="198" alt="image" src="https://user-images.githubusercontent.com/127223778/228711170-e0ac54f9-7435-4e4b-9d48-139d08123591.png">
-
+$$T = \left( \begin{array}  { l l l l l  }  { 1 } & { 0 } & { 0 } & { - 1 } & { - 1 } & { 0 } & { 1 } \\ { 0 } & { 1 } & { 0 } & { - 1 } & { 0 } & { 1 } \\ { 0 } & { 0 } & { 1 } & { 0 } & { - 1 } & { - 1 } & { 1 } \\ { 0 } & { 0 } & { 0 }$$
 
 a的MLE现在可以用牛顿-拉夫森方法得到 。一阶二阶导数如下 。a的分数的相应分量，由
 
-$$ \frac{\partial \epsilon}{\partial \alpha _{\omega}}=d^{T}(\frac{\partial \theta}{\partial \alpha _{\omega}})=d^{T}(c \frac{\partial \theta _{+}}{\partial \eta}\frac{\partial \eta}{\partial \alpha _{\omega}})=d^{T}CDiag(w)\Delta _{\omega}$$
+$$\frac { \partial l } { \partial \alpha _ { \alpha _ { \alpha } } } = d ^ { T } ( \frac { \partial \theta } { \partial \alpha _ { \alpha _ { \alpha } } } ) = d ^ { T } ( c \frac { \partial \theta _ { + } } { \partial n } \frac { \partial _ { \alpha } } { \partial _ { \alpha } } ) = d ^ { T } C  A _ { \alpha$$ 
+
  
+
 
 
 204.综合数据分析
@@ -108,12 +109,15 @@ $$E(r_{\omega}|n_{\omega})=x_{\omega}-E(y_{\omega}|n_{\omega})$$
 
 206.综合数据分析
 
+ 
+
+![img](file:///C:\Users\Silver\AppData\Local\Temp\ksohtml5976\wps41.jpg) 
 
 9.4具有零自由度的模型选择
 
 9.4.1潜在似然比准则
 
-在每一类日志或日志模型中，两个嵌套模型之间的模型选择可以同时利用拟合优 度和双参数数 。根据赤池国际银行的信息标准 。在它们之间存在一个问题，即从两个参数数量相同但具有不同链接函数的模型中选择一个，在这种情况下，形式上的选择只能取决于拟合优度 。然而，当可用的列表很少时，可能会发 生两种模型“耗尽”了数据中的所有自由度，而且都准确地符合数据。例如，在 K = 2的情况下，可能性 (9.6)  是基于3个自由变化的观察结果$$(n_{1},n_{2},n_{12})$$。调查捕获概率$$\gamma$$作为一个必要参数，通过设置a给出最大不饱和列表误差模型$$\alpha _ { 12 } = 0$$可以在 (9.3)  或 (9.4)  中使用。这使得正式测试拟合优度的自由度为零 。此外，这两种模型都可能精确地拟合数据，因此，即使是非正式地，也不可能知道哪一种拟合更好。下面我们阐述了一个潜在的似然比准则，最初在Zhang (1996)  中讨论过，它可能与这些情况下的模型选择有关。
+在每一类日志或日志模型中，两个嵌套模型之间的模型选择可以同时利用拟合优 度和双参数数 。根据赤池国际银行的信息标准 。在它们之间存在一个问题，即从两个参数数量相同但具有不同链接函数的模型中选择一个，在这种情况下，形式上的选择只能取决于拟合优度 。然而，当可用的列表很少时，可能会发 生两种模型“耗尽”了数据中的所有自由度，而且都准确地符合数据。例如，在 K = 2的情况下，可能性 (9.6)  是基于3个自由变化的观察结果$$( n _ { 1 } , n _ { 2 } , n _ { 12 } )$$。调查捕获概率$$\gamma$$作为一个必要参数，通过设置a给出最大不饱和列表误差模型$$\alpha _ { 12 } = 0$$可以在 (9.3)  或 (9.4)  中使用。这使得正式测试拟合优度的自由度为零 。此外，这两种模型都可能精确地拟合数据，因此，即使是非正式地，也不可能知道哪一种拟合更好。下面我们阐述了一个潜在的似然比准则，最初在Zhang (1996)  中讨论过，它可能与这些情况下的模型选择有关。
 
 其起点是基于似然比检验 (LRT)  的模型选择的标准理论 。例如Vuong (  1989)  基于独立和同分布 (IID)  的观测结果，解释了LRT的一般性质 。在目前的  背景下，完整的数据 $$( r , n )$$来自于的IID实现$$( 8 v , 8 s )$$，为所有的$$i \in A_{\omega}$$和$$w E Q _ { K }$$提供服务，其中r缺失，只观察到n 。观测数据n仍然是由IID伯努利试验有概率生成的$$P _ { omega }$$在每个$$A _ { omega }$$，可能性$$L _ { 1 }$$基于$$ n $$，由 (9.6)  给出，在工作模型(9.3)  或(9.4) 下。假设这两个模型有相同的$$\alpha$$项， 并且在链接函数中只有二项。
 
@@ -133,9 +137,16 @@ $$\psi ^ { * } = \operatorname { a r g m i n } E ^ { 0 } [ e ( \psi ; n ) ] = \a
 
 LRT在两个模型之间的选择是不确定的
 
-$$l ( \psi l _ { \log } ^ { * } n ^ { 0 } ) = l ( \psi l _ { \log i t } ^ { * } n ^ { 0 } ) = l ( n ^ { 0 } ; n ^ { 0 } )$$  (9.8)
+$$l ( \psi l _ { \log } ^ { * } n ^ { 0 } ) = l ( \psi l _ { \log i t } ^ { * } n ^ { 0 } ) = l ( n ^ { 0 } ; n ^ { 0 } )$$
 
 207
+
+ 
+
+ 
+
+(9.8)
+
 
 
 其中$$l ( n ^ { 0 } ; n ^ { 0 } )$$表示根据定义使偏差最小化的饱和对数似然值 。提供 (9.8)  ，Vuong (1989)  将这两种模型作为等价模型 。然而，等价是不切实际的，只有两个模型给出N的不同估计 。此外，等价性不是真实的，而是由于r的缺失，因为两个模型可以被区分，否则两者记录和 对数几率是可识别的。
@@ -148,7 +159,7 @@ $$E(r|n; \widehat{\psi}_{\log})= \widehat{r}=E(r; \widehat{\alpha}_{\log})$$
 
 其中第一个方程对应于在e步中的计算，第二个方程是在m步中求解的分数方程。提供了MLE的一致性 (登普斯特等人，1977；Wu，1983) 对于$$x _ { w } \rightarrow \infty$$在$$w E Q _ { K }$$中，我们有
 
-$$x_{\omega}^{-1}E(r_{\omega}|n_{\omega}; \widehat{\psi}_{\log})^{P}x_{\omega}^{-1}E(r_{\omega}|n_{\omega}; \psi _{\log}^{*})=x_{\omega}^{-1}E(r_{\omega}; \alpha ^{*})$$
+$$x _ { \alpha } ^ { - 1 } E ( r _ { \alpha } | _ { \alpha } | _ { \alpha } | _ { \alpha } | _ { \alpha } | _ { \alpha } | _ { \alpha } | _ { \alpha } | _ { \alpha } | x _ { \alpha } | _ { \alpha } | _ { \alpha } | x _ { \alpha } | = x _ { \alpha } ^ { - 1 } | E ( r _ { \alpha } ^$$
 
 换句话说，在模型$$\psi \log$$对数下，估计的条件期望收敛于假设的完全数据，这样就产生伪真实的结果记(⇤)录作为基于完全数据对数似然的MLE 。记录我们将$$E ( r ; \psi ) ^ { * } \log )$$ 
 
@@ -162,4 +173,4 @@ $$E(r_{\omega}|n_{\omega}; \psi _{\log}^{*})\neq E(r_{\omega}|n_{\omega}; \psi _
 
 如果提供 (9.8)  ，  我们提出了一个潜在似然比准则 (LRC)  ，通过该$$ \psi _{\log}$$模型记录是否被认为比所提供的$$ \psi _{\logit}$$模型逻辑更健壮
 
-$$l_{C}(n,r_{\log it}^{*};n,r_{\log it}^{*})-l_{C}(\widehat{\psi}_{\log _{\log}}n,r_{\log it}^{*}) \leq e_{C}(n,r_{log}^{*}n,r_{log}^{*})-e_{C}(\widehat{\psi}_{\log it};n,r_{l_{og}}^{*})$$(9.9)
+ $$l_{C}(n,r_{logit}^{*};n,r_{\log it}^{*})-l{C}(\widehat{\psi}_{\log _{o}};n,r_{\log it}^{*}) \leq l_{C}(n,r_{\log}^{*};n,r_{\log}^{*})-\operatorname { l c } ( v \operatorname { l o g } i t ; n , r _ { l o g } )$$(9.9)
