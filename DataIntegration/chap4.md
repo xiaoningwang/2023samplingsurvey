@@ -472,7 +472,9 @@ $$\int_Ld\widetilde{H_H}(y,z|x)=\widehat C\int_LI_{(a_x\le f_x(y,z)\le b_x)d[\wi
 
 $$\widehat C^{-1}=\int_{\Bbb R^2}I(a_x\le f_x(y,z)\le b_x)d[\widehat F_H(y|x)\widehat G_H(z|x)]=\cfrac{\sum_{i\in s_A}\sum_{j\in s_B}I(a_x\le f_x(y,z)\le b_x)\pi ^{-1}_{i,A}\pi ^{-1}_{j,B}I_{(x_i=x)}I_{(x_j=x)}}{\sum_{i\in s_A}\sum_{j\in s_B}\pi ^{-1}_{i,A}\pi ^{-1}_{j,B}I_{(x_i=x)}I_{(x_j=x)}}$$
 
-**以下内容是郭慧慧所写**
+
+#### 以下部分为郭慧慧2021213053005所写（P91——P100）
+
 统计匹配中的不确定性与估计
 也就是说，$H _ { H } ( y , z | x )$可以改写为:
 
@@ -481,7 +483,8 @@ $$ \tilde{H}_{H}(y,z|x)=\frac{\sum _ { i \in s _ { A } } \sum _ { j \in s_{B} } 
 其基本思想是应用IPF算法，以$ \tilde{H}_{H}(y,z|x)$为“起点”，并通过交替地重新比例其边缘w.r.t.(4.48)。注意起始分布$ \tilde{H}_{H}(y,z|x)$一个模拟分布条件独立假设(由于选择与相对于$ \widehat{F}_{H}(y|x)$和$ \widehat{G}_{H}(z|x)$分布的乘积)，而不是表示CIA，由于$ \tilde{H}_{H}(y,z|x)$在约束区域，而边际分布在相应的域中不一定为零。的边际分布也要注意$ \tilde{H}_{H}(y,z|x)$分别不是$ \widehat{F}_{H}(y|x)$和$ \widehat{G}_{H}(z|x)$。因此，指规数算法沿$ \widehat{F}_{H}(y|x)$和$ \widehat{G}_{H}(z|x)$方向应用，以求得解估计匹配分布$ \widehat{H}_{H}^{*}(y,z|x)$，即，一个d.f.有同样的时间边缘(4.48)和满足约束(4.17)。
 Conti等人[18]建议使用估计量(4.48)，因为在假设A1-A6，它们倾向于在概率上有相同的极限估计器是基于泊松抽样设计，在最后的情况下估计量的渐近正态性可以很容易地得到。
 
-**4.4.3匹配分布的可靠性**
+
+#### 4.4.3 匹配分布的可靠性  
 
 为了评估匹配分布的准确性，我们继续估计不确定性度量（4.31）和（4.33）。
 关于不确定性的条件测度（4.31），一个公平同步的方法包括首先估计（4.9）给出的条件d.f.s$F_{N}(y|x)$，$G_{N}(z|x)$，然后将这些估计插入（4.31）中。利用估计量（4.48），得到了条件测度数确定性$ \Delta ^{x}(F_{N},G_{N})$的以下估计量
@@ -540,7 +543,8 @@ $$V(F,G)= \sum _{k=1}^{K}p(x^{k})V(F,G;x^{k})+ \frac{(\zeta _{A}-1)(\zeta_{B}-1)
 
 在[14]中证明，估计量$A _ { H } ^ { x }$和估计量$ \widehat{\Delta}_{H}$是渐近一致的（在Brewer定理中）。
 
-**4.4.4匹配可靠性的评估作为一个假设问题**
+
+#### 4.4.4 匹配可靠性的评估作为一个假设问题  
 
 渐近结果（4.55）和（4.60）允许我们分别定义不确定性度量（4.31）和（4.33）上的检验假设程序。鉴于条件不确定性测量$ \Delta ^{x}(F_{N},G_{N})$可以作为误差的上限发生当真正的人口分布函数被一个匹配分布在$H _ { N } ^ { x }$4.27），这些测试程序是有效的为了显示，例如，是否不确定性实际上可以视为零，或限制可忽略的数量，或者如果数据不支持这一假设。设ex besuch正数；例如，它可以是$ \Delta ^{x}(F_{N},G_{N})$的最大值的一个百分比，即$1/6 \approx 0.17$（见[16]）。当$ \Delta ^{x}(F_{N},G_{N})$小于$ \epsilon ^{x}$时，保守的方法会认为匹配分布是“可靠的”分布。
 对匹配分布的可靠性的评估可以通过检验以下假设来处理：
@@ -556,7 +560,8 @@ $$ \widehat{\Delta}^{x}\leq \epsilon ^{x}+z_{\alpha}\sqrt{\overline{V}_{x}}(\fra
 
 注2.在假设的情况下，也就是说，Bootstrap的经典版本可以用来估计方差，如在[18]中所应用的，它包括：(I)产生大小为$n_{A}$的样本$s_{A}$；(ii)产生大小为$n_{B}$的样本$s_{B}$；显然，经典的Bootstrap方法不适用于复杂的调查抽样。Conti等人[18]还详细介绍了来自有限总体的重抽样方法的参考文献，并提到了两种主要方法：即席方法([31]，[37]，[44]，[4]，[11]，[13])和插入式方法([26]，[10]，[28]，[36])。
 
-结论和待决问题：统计匹配问题与生态推理之间的关系
+
+### 4.5 结论和待决问题：统计匹配问题与生态推理之间的关系
 随着不同的数据源开始共享一个共同的元数据框架，统计匹配将是一个无处不在的问题，并且在一个独特的地方，可以看到既没有联合操作服务的数据，也不能通过单元标识符链接的数据。虽然第一次应用是在20世纪60年代末，但由于重要问题，统计匹配应用不是很复杂：除非引入特定的假设，否则数据不能为描述从未共同观察过的变量之间的联合关系的参数提供点估计；数据可以通过不同的复杂调查设计获得，而且不能直接调和它们。
 正如在第4.2节中所介绍的，统计匹配解决了推断两个从不联合服务的变量的联合分布的问题。这个问题已经在一个不同的框架中进行了独立的分析：生态推理。使这个框架特定的经济学推理：无论如何，这两个领域之间的接触点是如此之多，以至于一起分析它们并可能交换方法和解决方案似乎很重要。“生态推理”利用人口中群体聚集形式的数据，得出关于个体层面关系的结论。这些群体通常在地理上被定义为“[46]”。生态学这个术语似乎是由于这些群体的存在，以及他们通常是根据地理位置设计的事实。事实上，统计匹配并不涉及任何类型的分组，而是使用公共变量X来证实任何类型的对从未共同观察到的变量的推断。尽管有这些相似之处，但在这两种情况下，解决方案并没有被共享。这也由典型的生态推理例子所代表：在选举时，两个政党的选举人票是已知的，以及一些选区根据种族（白人、非白人）划分的选民人数。
 因此，需要建立关于种族和选举投票率扫描的双向列联表，其中边界已知，表内的单元格未知。这正是用X表示区域的统计匹配情况。正如在统计匹配环境中已经指出的，给定符合统计匹配符号的precincts，i.e.（Y，ZX）的种族和选票的联合分布是不可识别的分布。这也是生态推理的兴趣对象。
@@ -572,3 +577,63 @@ $$ \widehat{\Delta}^{x}\leq \epsilon ^{x}+z_{\alpha}\sqrt{\overline{V}_{x}}(\fra
 来自生态推断的方法表明，可以重新考虑两个样本调查中共同变量的作用：从共同变量来看，一方面可以考虑协变量（即匹配变量），以及第二阶段的组（阶层）。第二组是建立聚合数据建模的可能性的基础；
 似乎生态推断已经发展为二元Y和Z，而统计匹配不限制可变变量匹配的性质。
 我们认为，这是在这两个领域中交换和重用方法应该遵循的路线。
+
+### 参考文献
+[1] A. Agresti and M.C. Yang. An empirical investigation of some effects of sparseness in contingency tables. Computational Statistics & Data Analysis, 5:9–21, 1987.
+[2] T.W. Anderson. Maximum likelihood estimates for a multivariate normal distribution when some observations are missing. Journal of theAmerican Statistical Association, 52:200–203, 1957.
+Uncertainty and Estimation in Statistical Matching 97
+[3] E. Antal and Y. Tille. A direct bootstrap method for complex sampling ´designs from a finite population. Journal of the American Statistical Association, 106:534–543, 2011.
+[4] J-F. Beaumont and Z. Patak. On the Generalized Bootstrap for Sample Surveys with Special Attention to Poisson Sampling. International Statistical Review, 80:127–148, 2012.
+[5] Y.G. Berger. Asymptotic consistency under large entropy sampling designs with unequal probabilities. Pakistan Journal of Statistics, 27:407– 426, 2011.
+[6] Y.G. Berger. Rate of convergence to normal distribution for the HorvitzThompson estimator. Journal of Statistical Planning and Inference, 67:
+209–226, 1998.
+[7] W. Bergsma. A bias-correction for Cramer’s V and Tschuprow’s. Journal
+of the Korean Statistical Society, 42:9–21, 2013.
+[8] L. Breiman. Random forests. Machine Learning, 45:5–32, 2001.
+[9] L. Breiman, J. H. Friedman, R. A. Olshen, and C. J. Stone. Classification and Regression Trees. Wadsworth, 1984.
+[10] M.-T. Chao and S.-H. Lo. A bootstrap method for finite population. Sankhya¯, pages 399–405, 1985.
+[11] A. Chatterjee. Asymptotic properties of sample quantiles from a finite population. Annals of the Institute of Statistical Mathematics, 63:157–179, 2011.
+[12] P.L. Conti. On the estimation of the distribution function of a finite population under high entropy sampling designs, with applications. Sankhya¯ B. DOI: 10.1007/s13571-014-0083-x, 2014.
+[13] P.L. Conti and D. Marella. Inference for quantiles of a finite population: asymptotic vs. resampling results. Sandinavian Journal of Statistics,
+2014.
+[14] P.L. Conti, D. Marella, and A. Neri. Statistical matching and uncertainty
+analysis in combining household income and expenditure data. Statistical Methods & Applications, 26:485–505, 2017.
+[15] P.L. Conti, D. Marella, and M. Scanu. Evaluation of matching noise for imputation techniques based on nonparametric local linear regression estimators. Computational Statistics and Data Analysis, 53:354–365, 2008.
+[16] P.L. Conti, D. Marella, and M. Scanu. Uncertainty analysis in statistical matching. Journal of Official Statistics, 28:69–88, 2012. 98 Analysis of Integrated Data
+[17] P.L. Conti, D. Marella, and M. Scanu. Uncertainty analysis for statistical matching of ordered categorical variables. Computational Statistics and
+Data Analysis, 68:311–325, 2013.
+[18] P.L. Conti, D. Marella, and M. Scanu. Statistical matching analysis for complex survey data with applications. Journal of the American Statistical Association, 111:1715–1725, 2016.
+[19] P.L. Conti, D. Marella, and M. Scanu. How far from identifiability? a systematic overview of the statistical matching problem in a non parametric framework. Commmunications in Statistics - Theory and Methods, 46:967–994, 2017.
+[20] T. De Waal. Statistical matching: experimental results and future research questions. Discussion paper n. 19, CBS, 2015.
+[21] G. Donatiello, M. D’Orazio, D. Frattarola, A. Rizzi, Scanu M., and M. Spaziani. The role of the conditional independence assumption in
+statistically matching income and consumption. Statistical Journal of the IAOS, 77:667–675, 2016.
+[22] M. D’Orazio, M. Di Zio, and M. Scanu. Auxiliary variable selection in a statistical matching problem. In L.-C. Zhang and R. L. Chambers, editors, Ecological Inference: new methodological strategies. CRC: Chapman and Hall, London.
+[23] M. D’Orazio, M. Di Zio, and M. Scanu. Statistical matching: theory and practice. Wiley, Chichester, 2006.
+[24] M. D’Orazio, M. Di Zio, and M. Scanu. Uncertainty intervals for nonidentifiable parameters in statistical matching. Proceedings of the 57th
+Session of the International Statistical Institute World Congress, Durban - South Africa, 2009.
+[25] B. Efron. Bootstrap methods: another look at the jackknife. The Annals of Statistics, 7:1–26, 1979.
+[26] S.T. Gross. Median estimation in sample surveys in: Proceedings of the section on survey reasearch methods. Proceedings of the Section on Survey Research Methods, American Statistical Association, pages 181–184, 1980.
+[27] J. Hajek. Asymptotic theory of rejective sampling with varying proba- ´ bilities from a finite population. The Annals of Mathematical Statistics, 35:1491–1523, 1964.
+[28] A. Holmberg. A bootstrap approach to probability proportional-to-size sampling. Proceedings of the ASA Section on Survey Research Methods, pages 378–383, 1998.
+Uncertainty and Estimation in Statistical Matching 99
+[29] G. King. A solution to the ecological inference problem: reconstructing individual behavior from aggregate data. Princeton University Press, Princeton, 1997.
+[30] D. Marella, M. Scanu, and P.L. Conti. On the matching noise of some nonparametric imputation procedures. Statistics and Probability Letters, 78:1593–1600, 2008.
+[31] P J. McCarthy and C B. Snowden. The bootstrap and finite population sampling. In Vital and health statistics, pages 1–23. Public Heath Service Publication, U.S. Government Pronting, Washington, DC, 1985.
+[32] C. Moriarity and F. Scheuren. Statistical matching: A paradigm for assessing the uncertainty in the procedure. Journal of Official Statistics, pages 407–422, 2001.
+[33] R.B. Nelsen. An introduction to copulas. Springer, New York, 1999.
+[34] B.A. Okner. Constructing a new data base from existing microdata sets: the 1966 merge file. Annals of Economic and Social Measurement, 1:325– 342, 1972.
+[35] S. Raessler. Statistical matching: A Frequentist Theory, Practical Applications, and Alternative Bayesian Approaches. Springer, New York, 2002.
+[36] M. G. Ranalli and F. Mecatti. Comparing recent approaches for bootstrapping sample survey data: a first step towards a unified approach. In Proceedings of the ASA Section on Survey Research Methods, pages 4088–4099, 2012.
+[37] J N K. Rao and C F J. Wu. Resampling inference with complex survey data. Journal of the American Statistical Association, 83:231–241, 1988.
+[38] J. Reiter. Using multiple imputation to integrate and disseminate confidential microdata. International Statistical Review, 77:179–195, 2009.
+[39] R.H. Renssen. Use of statistical matching techniques in calibration estimation. Survey Methodology, 24:171–183, 1998.
+[40] D. Rivers. Sampling fom web surveys. In Proceedings of the ASA Section on Survey Research Methods, 2007.
+[41] W. L. Rodgers. An evaluation of statistical matching. Journal of Business and Economic Statistics, pages 91–102, 1984.
+[42] D B. Rubin. Statistical matching using file concatenation with adjusted weights and multiple imputations. Journal of Business and Economic Statistics, 4:87–94, 1986. 100 Analysis of Integrated Data
+[43] C.A. Sims. Comments on: “Constructing a new data base from existing microdata sets: the 1966 merge file”, by B.A. Okner. Annals of Economic and Social Measurements, 1:343–345, 1972.
+[44] R R. Sitter. A resampling procedure for complex data. Journal of the American Statistical Association, 87:755–765, 1992.
+[45] D. Slepian. The one-sided barrier problem for gaussian noise. Bell System Technical Journal, 41:463–501, 1962.
+[46] D.G. Steel, E.J. Beh, and R. L. Chambers. The information in aggregate data. In G. King, O. Rosen, and M.A. Tanner, editors, Ecological Inference: new methodological strategies. Cambridge University Press, Cambridge, 2004.
+[47] Y. Tille.´ Sampling Algorithms. Springer, New York, 2006.
+[48] C. Wu. Combining information from multiple surveys through the empirical likelihood method. Canadian Journal of Statistics, 32:15–26, 2004.
+[49] L.-C. Zhang and R. L. Chambers. Minimal inference from incomplete 2 × 2-tables. In L.-C. Zhang and R. L. Chambers, editors, Analysis of Integrated Data. CRC: Chapman and Hall, London.
