@@ -476,7 +476,9 @@ $$\widehat C^{-1}=\int_{\Bbb R^2}I(a_x\le f_x(y,z)\le b_x)d[\widehat F_H(y|x)\wi
 
 ------------------------------------
 **以下内容是郭慧慧所写（P91-100）**
+
 统计匹配中的不确定性与估计
+
 也就是说，$H _ { H } ( y , z | x )$可以改写为:
 
 $$ \tilde{H}_{H}(y,z|x)=\frac{\sum _ { i \in s _ { A } } \sum _ { j \in s_{B} } I _ { ( a _ { x } \leq f _ { x } ( y _ { i } , z _ { j } )\leq b_{x}) } \pi _{i,A}^{-1}\pi _{j,B}^{-1}I_{(x_{i}=x)}I_{(x_{j}=x)}I_{(y_{i}\leq y)}I_{(z_{j}\leq z)} }{\sum _ { i \in s _ { A } } \sum _ { j \in s_{B} } I _ { ( a _ { x } \leq f _ { x } ( y _ { i } , z _ { j } \leq b _ { x } )} \pi _{i,A}^{-1}\pi _{j,B}^{-1} I _ { ( x _ { i } = x ) }I _ { ( x _ { j } = x ) }}$$
