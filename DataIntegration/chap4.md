@@ -578,10 +578,11 @@ $$ \widehat{\Delta}^{x}\leq \epsilon ^{x}+z_{\alpha}\sqrt{\overline{V}_{x}}(\fra
 
 ### 参考文献
 
-[1] A. Agresti and M.C. Yang. An empirical investigation of some effects of sparseness in contingency tables. Computational Statistics & Data Analysis, 5:9–21, 1987.
+[1] A. Agresti and M.C. Yang. An empirical investigation of some effects of sparseness in contingency tables. Computational Statistics & Data Analysis, 5:9–21, 1987.
 
-[2] T.W. Anderson. Maximum likelihood estimates for a multivariate normal distribution when some observations are missing. Journal of theAmerican Statistical Association, 52:200–203, 1957.  Uncertainty and Estimation in Statistical Matching 97
-[3] E. Antal and Y. Tille. A direct bootstrap method for complex sampling ´designs from a finite population. Journal of the American Statistical Association, 106:534–543, 2011.
+[2] T.W. Anderson. Maximum likelihood estimates for a multivariate normal distribution when some observations are missing. Journal of theAmerican Statistical Association, 52:200–203, 1957.  Uncertainty and Estimation in Statistical Matching 97  
+
+[3] E. Antal and Y. Tille. A direct bootstrap method for complex sampling ´designs from a finite population. Journal of the American Statistical Association, 106:534–543, 2011.
 
 [4] J-F. Beaumont and Z. Patak. On the Generalized Bootstrap for Sample Surveys with Special Attention to Poisson Sampling. International Statistical Review, 80:127–148, 2012.
 
