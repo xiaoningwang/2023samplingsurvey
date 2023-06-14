@@ -615,16 +615,16 @@ $$ \widehat{\Delta}^{x}\leq \epsilon ^{x}+z_{\alpha}\sqrt{\overline{V}_{x}}(\fra
 [17] P.L. Conti, D. Marella, and M. Scanu. Uncertainty analysis for statistical matching of ordered categorical variables. Computational Statistics and
 Data Analysis, 68:311–325, 2013.
 
-[18] P.L. Conti, D. Marella, and M. Scanu. Statistical matching analysis for complex survey data with applications. Journal of the American Statistical Association, 111:1715–1725, 2016.
+[18] P.L. Conti, D. Marella, and M. Scanu. Statistical matching analysis for complex survey data with applications. Journal of the American Statistical Association, 111:1715–1725, 2016.
 
-[19] P.L. Conti, D. Marella, and M. Scanu. How far from identifiability? a systematic overview of the statistical matching problem in a non parametric framework. Commmunications in Statistics - Theory and Methods, 46:967–994, 2017.
+[19] P.L. Conti, D. Marella, and M. Scanu. How far from identifiability? a systematic overview of the statistical matching problem in a non parametric framework. Commmunications in Statistics - Theory and Methods, 46:967–994, 2017.
 
 [20] T. De Waal. Statistical matching: experimental results and future research questions. Discussion paper n. 19, CBS, 2015.
 
 [21] G. Donatiello, M. D’Orazio, D. Frattarola, A. Rizzi, Scanu M., and M. Spaziani. The role of the conditional independence assumption in
 statistically matching income and consumption. Statistical Journal of the IAOS, 77:667–675, 2016.
 
-[22] M. D’Orazio, M. Di Zio, and M. Scanu. Auxiliary variable selection in a statistical matching problem. In L.-C. Zhang and R. L. Chambers, editors, Ecological Inference: new methodological strategies. CRC: Chapman and Hall, London.
+[22] M. D’Orazio, M. Di Zio, and M. Scanu. Auxiliary variable selection in a statistical matching problem. In L.-C. Zhang and R. L. Chambers, editors, Ecological Inference: new methodological strategies. CRC: Chapman and Hall, London.
 
 [23] M. D’Orazio, M. Di Zio, and M. Scanu. Statistical matching: theory and practice. Wiley, Chichester, 2006.
 
