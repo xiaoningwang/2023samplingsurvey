@@ -266,7 +266,7 @@ $$H_{N}^{x}=\\{H_{N}(y,z|x):H_{N}(y,\infty |x)=F_{N}(y|x),H_{N}(\infty ,z|x)=G_{
 &emsp;&emsp;[30]中评估了CIA简化背景下非参数插补程序和独立同分布观测结果产生的匹配误差。该类基于 $s_{B}$ 中 $Z$ 对  $X$ 回归函数的 $k$ 最近邻（kNN）非参数估计，包括固定和可变数量的供体 $k$ ，并包括一些最流行的非参数插补程序，如距离和随机热甲板。对插补程序的渐近财产进行了初步分析，然后通过仿真进行了研究。在[15]中，我们进一步引入了基于局部线性回归的新的非参数匹配技术，其性能通过匹配误差来衡量。  
 &emsp;&emsp;不幸的是，在许多具有实际重要性的情况下，CIA是不合理的。在这种情况下，类（4.27）不会减少到单个点，并且即使 $s_{A}$ 和 $s_{B}$ 的大小增加，匹配误差也不能变得可以忽略。  
 &emsp;&emsp;尽管存在这一缺陷，但对匹配误差的研究仍然具有重要意义，因为“小”的匹配误差意味着所选择的匹配分布 $H_{N}^{\ast }(y,z|x)$ “接近”实际的 $H_{N}(y,z|x)$ ，因此用 $H_{N}^{\ast }(y,z|x)$ 代替 $H_{N}(y,z|x)$ 不会产生“大”的误差。  
-&emsp;&emsp;从现在起，为了评估匹配分布 $H_{N}^{\ast }(y,z|x)$ 的准确性，作为真实概率分布函数 $H_{N}(y,z|x)$ 的估计器，作为匹配误差度量（有条件地基于 $X$ ），我们将使用以下内容：
+&emsp;&emsp;从现在起，为了评估匹配分布 $H_{N}^{\ast }(y,z|x)$ 的准确性，作为真实概率分布函数 $H_{N}(y,z|x)$ 的估计量，作为匹配误差度量（有条件地基于 $X$ ），我们将使用以下内容：
 
 $$ME_{x}(H_{N}^{\ast },H_{N})={\int _{R^2}}|H_{N}^{\ast }(y,z|x)-H_{N}(y,z|x)|d\lbrack F_{N}(y|x)G_{N}(z|x)\rbrack .\tag{4.28}$$
 
@@ -390,9 +390,9 @@ $$\Delta = \sum_{k=1}^K\Delta^{x=k}\theta_k \tag{4.42}$$
 
 
 
-D'Orazio 等人。[<font color=Blue>24</font>]比较它们的效率，包括基于最大伪似然的额外估计，如[<font color=Blue>48</font>]中的那些。无论如何，在有限的样本量下，这些估计器中没有任何突出的估计器。
+D'Orazio 等人。[<font color=Blue>24</font>]比较它们的效率，包括基于最大伪似然的额外估计，如[<font color=Blue>48</font>]中的那些。无论如何，在有限的样本量下，这些估计量中没有任何突出的估计量。
 
-当根据复杂的调查设计抽取样本时，[<font color=Blue>18</font>]给出了一种可能性。他们将注意力限制在粗略地说⾼熵的抽样设计上（实际假设在第 $4.4.1$节中）。在此设置中，可以通过迭代比例拟合(IPF) 算法（第$4.4.2$节）获得感兴趣变量的合理联合分布的存在。孔蒂等人。 [<font color=Blue>18</font>]通过根据渐近特性（第  $4.4.3$节）分析估计器的可靠性，克服了为有限样本量建立统计匹配的最佳方法的问题允许使用一些额外的工具，作为不确定宽度测试的定义。
+当根据复杂的调查设计抽取样本时，[<font color=Blue>18</font>]给出了一种可能性。他们将注意力限制在粗略地说⾼熵的抽样设计上（实际假设在第 $4.4.1$节中）。在此设置中，可以通过迭代比例拟合(IPF) 算法（第$4.4.2$节）获得感兴趣变量的合理联合分布的存在。孔蒂等人。 [<font color=Blue>18</font>]通过根据渐近特性（第  $4.4.3$节）分析估计量的可靠性，克服了为有限样本量建立统计匹配的最佳方法的问题允许使用一些额外的工具，作为不确定宽度测试的定义。
 
 ------------------------------------
  **4.4.1  复杂抽样调查的统计匹配**	
@@ -472,14 +472,19 @@ $$\int_Ld\widetilde{H_H}(y,z|x)=\widehat C\int_LI_{(a_x\le f_x(y,z)\le b_x)d[\wi
 
 $$\widehat C^{-1}=\int_{\Bbb R^2}I(a_x\le f_x(y,z)\le b_x)d[\widehat F_H(y|x)\widehat G_H(z|x)]=\cfrac{\sum_{i\in s_A}\sum_{j\in s_B}I(a_x\le f_x(y,z)\le b_x)\pi ^{-1}_{i,A}\pi ^{-1}_{j,B}I_{(x_i=x)}I_{(x_j=x)}}{\sum_{i\in s_A}\sum_{j\in s_B}\pi ^{-1}_{i,A}\pi ^{-1}_{j,B}I_{(x_i=x)}I_{(x_j=x)}}$$
 
-**以下内容是郭慧慧所写**
+
+
+------------------------------------
+**以下内容是郭慧慧所写（P91-100）**
+
 统计匹配中的不确定性与估计
+
 也就是说，$H _ { H } ( y , z | x )$可以改写为:
 
 $$ \tilde{H}_{H}(y,z|x)=\frac{\sum _ { i \in s _ { A } } \sum _ { j \in s_{B} } I _ { ( a _ { x } \leq f _ { x } ( y _ { i } , z _ { j } )\leq b_{x}) } \pi _{i,A}^{-1}\pi _{j,B}^{-1}I_{(x_{i}=x)}I_{(x_{j}=x)}I_{(y_{i}\leq y)}I_{(z_{j}\leq z)} }{\sum _ { i \in s _ { A } } \sum _ { j \in s_{B} } I _ { ( a _ { x } \leq f _ { x } ( y _ { i } , z _ { j } \leq b _ { x } )} \pi _{i,A}^{-1}\pi _{j,B}^{-1} I _ { ( x _ { i } = x ) }I _ { ( x _ { j } = x ) }}$$
 
 其基本思想是应用IPF算法，以$ \tilde{H}_{H}(y,z|x)$为“起点”，并通过交替地重新比例其边缘w.r.t.(4.48)。注意起始分布$ \tilde{H}_{H}(y,z|x)$一个模拟分布条件独立假设(由于选择与相对于$ \widehat{F}_{H}(y|x)$和$ \widehat{G}_{H}(z|x)$分布的乘积)，而不是表示CIA，由于$ \tilde{H}_{H}(y,z|x)$在约束区域，而边际分布在相应的域中不一定为零。的边际分布也要注意$ \tilde{H}_{H}(y,z|x)$分别不是$ \widehat{F}_{H}(y|x)$和$ \widehat{G}_{H}(z|x)$。因此，指规数算法沿$ \widehat{F}_{H}(y|x)$和$ \widehat{G}_{H}(z|x)$方向应用，以求得解估计匹配分布$ \widehat{H}_{H}^{*}(y,z|x)$，即，一个d.f.有同样的时间边缘(4.48)和满足约束(4.17)。
-Conti等人[18]建议使用估计量(4.48)，因为在假设A1-A6，它们倾向于在概率上有相同的极限估计器是基于泊松抽样设计，在最后的情况下估计量的渐近正态性可以很容易地得到。
+Conti等人[18]建议使用估计量(4.48)，因为在假设A1-A6，它们倾向于在概率上有相同的极限估计量是基于泊松抽样设计，在最后的情况下估计量的渐近正态性可以很容易地得到。
 
 **4.4.3匹配分布的可靠性**
 
@@ -487,88 +492,209 @@ Conti等人[18]建议使用估计量(4.48)，因为在假设A1-A6，它们倾向
 关于不确定性的条件测度（4.31），一个公平同步的方法包括首先估计（4.9）给出的条件d.f.s$F_{N}(y|x)$，$G_{N}(z|x)$，然后将这些估计插入（4.31）中。利用估计量（4.48），得到了条件测度数确定性$ \Delta ^{x}(F_{N},G_{N})$的以下估计量
 
 $$ \widehat{\Delta}_{H}^{x}= \int _{R^{2}}(\widehat{K}_{H+}^{x}(y,z)- \widehat{K}_{H-}^{x}(y,z))d \left[ \widehat{F}_{H}(y|x)\widehat{G}_{H}(z|x)\right] 
-= \frac{1}{\widehat{N}_{A}(x)\widehat{N}_{B}(x)}\sum _{i,j=1}^{N}(\widehat{K}_{H+}^{x}(y_{i},z_{j})- \widehat{K}_{H-}^{x}(y_{i},z_{j}))\frac{D_{i,A}}{\pi _{i,A}}\frac{D_{i,B}}{\pi _{i,B}}I_{(x_{i}}=x){I}_(x_{j}=x)\quad(4.50)$$
+= \frac{1}{\widehat{N}_{A}(x)\widehat{N}_{B}(x)}\sum _{i,j=1}^{N}(\widehat{K}_{H+}^{x}(y_{i},z_{j})- \widehat{K}_{H-}^{x}(y_{i},z_{j}))\frac{D_{i,A}}{\pi _{i,A}}\frac{D_{i,B}}{\pi _{i,B}}I_{(x_{i}}=x){I}_(x_{j}=x)\tag{4.50}$$
 
 其中$ \widehat{K}_{H-}^{x}$，$ \widehat{K}_{H+}^{x}$分别精确地定义为(4.19)和(4.20)，但用$ \widehat{F}_{H}, \widehat{G}_{H}.$代替$F_{N},G_{N}$。
 
 Conti等人[18]证明了定理1，其中得到了估计量$ \widehat{\Delta}_{H}^{x}$的大样本分布。让我们定义一下量
 
-$$ \widehat{p}_{H,A}(x)= \frac{\sum _{i=1}^{N}\frac{D_{i.A}}{n_{iA}A}(x_{i}=x)}{\sum _{i=1}^{N}\frac{D_{i,A}}{\pi _{i,A}A}}, \widehat{p}_{H,B}(x)= \frac{\sum _{i=1}^{N}\frac{D_{i,B}}{\pi _{i,B}}I_{i_{i}-x})}\quad(4.51)$$
+$$ \widehat{p}_{H,A}(x)= \frac{\sum _{i=1}^{N}\frac{D_{i.A}}{n_{iA}A}(x_{i}=x)}{\sum _{i=1}^{N}\frac{D_{i,A}}{\pi _{i,A}A}}, \widehat{p}_{H,B}(x)= \frac{\sum _{i=1}^{N}\frac{D_{i,B}}{\pi _{i,B}}I_{i_{i}-x})}\tag{4.51})$$
 
-$$ \widehat{n}_{H,A}(x)= \frac{N \widehat{p}_{H_{i}}(x)}{\frac{1}{N}\sum _{i=1}^{N}\pi _{i,A}^{-1}-1}, \widehat{n}_{H,B}(x)= \frac{N \widehat{p}_{H.B}(x)}{\frac{1}{N}\sum _{i=1}^{N}\pi _{i,B}-1}, \quad(4.52)$$
+$$ \widehat{n}_{H,A}(x)= \frac{N \widehat{p}_{H_{i}}(x)}{\frac{1}{N}\sum _{i=1}^{N}\pi _{i,A}^{-1}-1}, \widehat{n}_{H,B}(x)= \frac{N \widehat{p}_{H.B}(x)}{\frac{1}{N}\sum _{i=1}^{N}\pi _{i,B}-1}\tag{4.52}$$
 
 其中的$ \widehat{p}_{H,A}(x)$代表分别表示从两个样本$S_{A},S_{B}$中得到的$p_{N}(x)$的Hajek估计量。
 因为，如[18]所示
 
-$$ \widehat{n}_{H,A}(x)(\frac{n_{A}p(x)}{f_{A}(\zeta _{A}-1)})^{-1}\rightarrow 1, \widehat{n}_{H,B}(x)(\frac{n_{B}p(x)}{f_{B}(\zeta _{B}-1)})^{-1}\rightarrow 1 \quad(4.53)$$
+$$ \widehat{n}_{H,A}(x)(\frac{n_{A}p(x)}{f_{A}(\zeta _{A}-1)})^{-1}\rightarrow 1, \widehat{n}_{H,B}(x)(\frac{n_{B}p(x)}{f_{B}(\zeta _{B}-1)})^{-1}\rightarrow 1 \tag{4.53}$$
 
 随着N的增加，可以在定理1中建立出$ \widehat{\Delta}_{H}^{x}$的渐近正态性。
 定理1：让$x \in \left\{ x^{1}, \ldots ,x^{K}\right\}$，并假设它
 
-$$\frac{ \frac{n_{A}p(x)}{f_{A}(\varsigma_{A}-1)}\frac{n_{B}p(x)}{f_{B}(\varsigma_{B}-1)} }{\frac{n_{A}p(x)}{f_{A}(\varsigma_{A}-1)}+ \frac{n_{B}p(x)}{f_{B}(\varsigma_{B}-1)} } \rightarrow \alpha   as   N \rightarrow \infty \quad(4.54)$$
+$$\frac{ \frac{n_{A}p(x)}{f_{A}(\varsigma_{A}-1)}\frac{n_{B}p(x)}{f_{B}(\varsigma_{B}-1)} }{\frac{n_{A}p(x)}{f_{A}(\varsigma_{A}-1)}+ \frac{n_{B}p(x)}{f_{B}(\varsigma_{B}-1)} } \rightarrow \alpha   as   N \rightarrow \infty \tag{4.54}$$
 
 然后，对于几乎所有的$(x_{i},y_{i},z_{i})s$的值，有条件地在$x_{N},y_{N},z_{N}$上，随着N的增加：
 
-$$\sqrt{\frac{\widehat{n}_{H,B}(x)\widehat{n}_{H,B}(x) }{\widehat{n}_{H,A}(x)+ \widehat{n}_{H,B}(x) }}  (\widehat{\Delta}_{H}^{x}- \Delta ^{x}(F_{N},G_{N}))\rightarrow N(0,V(F,G;x)) \quad(4.55)$$
+$$\sqrt{\frac{\widehat{n}_{H,B}(x)\widehat{n}_{H,B}(x) }{\widehat{n}_{H,A}(x)+ \widehat{n}_{H,B}(x) }}  (\widehat{\Delta}_{H}^{x}- \Delta ^{x}(F_{N},G_{N}))\rightarrow N(0,V(F,G;x)) \tag{4.55}$$
 
 $N(0,V)$表示在[18]中给出均值0和方差 为$V(F,G;x)$的正态分布r.v.  对于不确定性的无条件度量(4.33) ，其思想是使用形式为 $p_{N}(x)$的估计量：
 
-$$ \widehat{p}_{\tau}(x)= \tau \widehat{p}_{H,A}(x)+(1- \tau)\widehat{p}_{H,B}(x)\quad(4.56)$$
+$$ \widehat{p}_{\tau}(x)= \tau \widehat{p}_{H,A}(x)+(1- \tau)\widehat{p}_{H,B}(x)\tag{4.56}$$
 
 对于$0 \leq \tau \leq 1$，根据两个观察到的样本已经被定义为（4.51）。$\tau$的一个相当自然的选择是使（4.56）的渐近方差最小化的选择。
 因此，得到了所提出的无条件度量（4.33）的估计量，并对X的所有的类别：$x^{k}k=1, \ldots ,K of X$求和：
 
-$$\widehat{\Delta}_{H} = \sum _ { k = 1 } ^ { K } \Delta _ { H } ^ { x ^ { k } } \widehat{p}_{H}AB(x^{k})=  \overline{p}_{H,AB}(x)^{\prime}\widehat{\Delta}_{H}^{x}quad(4.57)$$
+$$\widehat{\Delta}_{H} = \sum _ { k = 1 } ^ { K } \Delta _ { H } ^ { x ^ { k } } \widehat{p}_{H}AB(x^{k})=  \overline{p}_{H,AB}(x)^{\prime}\widehat{\Delta}_{H}^{x}\tag{4.57}$$
 
 这从本质上模仿了（4.33）的结构。
 统计匹配中的不确定性与估计
 
 定理2：设
 
-$$ \widehat{n}_{A}\quad = \frac{n_{A}}{\frac{n_{A}}{N}(N^{-1}\sum _{i=1}^{N}\pi _{i,A}^{-1}-1)}= \frac{N}{N^{-1}\sum _{i=1}^{N}\pi _{i,A}^{-1}-1},(4.58)$$
+$$ \widehat{n}_{A}\quad = \frac{n_{A}}{\frac{n_{A}}{N}(N^{-1}\sum _{i=1}^{N}\pi _{i,A}^{-1}-1)}= \frac{N}{N^{-1}\sum _{i=1}^{N}\pi _{i,A}^{-1}-1}\tag{4.58}$$
 
-$$ \widehat{n}_{B}\quad = \frac{n_{A}}{\frac{n_{B}}{N}(N^{-1}\sum _{i=1}^{N}\pi _{i,B}^{-1}-1)}= \frac{N}{N^{-1}\sum _{i=1}^{N}\pi _{i,B}^{-1}-1}.(4.59)$$
+$$ \widehat{n}_{B}\quad = \frac{n_{A}}{\frac{n_{B}}{N}(N^{-1}\sum _{i=1}^{N}\pi _{i,B}^{-1}-1)}= \frac{N}{N^{-1}\sum _{i=1}^{N}\pi _{i,B}^{-1}-1}\tag{4.59}$$
 
 对于几乎所有的$( x _ { i } , y _ { i } , z _ { i } ) s$的值，有条件地在$x_{N},y_{N},z_{N}$上，随着N的增加，以下结果成立：
 
-$$ \sqrt{\frac{\widehat {n}_{A}\widehat {n}_{B}}{\widehat{n}_{A}+ \widehat{n}_{B}}}
-(\widehat{\Delta}_{H}- \Delta(F_{N},G_{N}))^{d}\rightarrow N(0,V(F,G))\quad asN \rightarrow \infty(4.60)$$
+$$ \sqrt{\frac{\widehat {n}_{A}\widehat {n}_{B}}{\widehat{n}_{A}+ \widehat{n}_{B}}} (\widehat{\Delta}_{H}- \Delta(F_{N},G_{N}))^{d}\rightarrow N(0,V(F,G))\quad asN \rightarrow \infty\tag{4.61}$$
 
 以及
 
-$$V(F,G)= \sum _{k=1}^{K}p(x^{k})V(F,G;x^{k})+ \frac{(\zeta _{A}-1)(\zeta_{B}-1)}{(\zeta_{A}+\zeta_{B}-2)^{2}}\Delta ^{x}(F,G)^{\prime}\sum \Delta ^{x}(F,G).(4.61)$$$$V(F,G)= \sum _{k=1}^{K}p(x^{k})V(F,G;x^{k})+ \frac{(\zeta _{A}-1)(\zeta_{B}-1)}{(\zeta_{A}+\zeta_{B}-2)^{2}}\Delta ^{x}(F,G)^{\prime}\sum \Delta ^{x}(F,G) (4.61)$$
+$$V(F,G)= \sum _{k=1}^{K}p(x^{k})V(F,G;x^{k})+ \frac{(\zeta _{A}-1)(\zeta_{B}-1)}{(\zeta_{A}+\zeta_{B}-2)^{2}}\Delta ^{x}(F,G)^{\prime}\sum \Delta ^{x}(F,G).(4.61)$$$$V(F,G)= \sum _{k=1}^{K}p(x^{k})V(F,G;x^{k})+ \frac{(\zeta _{A}-1)(\zeta_{B}-1)}{(\zeta_{A}+\zeta_{B}-2)^{2}}\Delta ^{x}(F,G)^{\prime}\sum \Delta ^{x}(F,G) \tag{4.61}$$
 
 在[14]中证明，估计量$A _ { H } ^ { x }$和估计量$ \widehat{\Delta}_{H}$是渐近一致的（在Brewer定理中）。
 
 **4.4.4匹配可靠性的评估作为一个假设问题**
 
-渐近结果（4.55）和（4.60）允许我们分别定义不确定性度量（4.31）和（4.33）上的检验假设程序。鉴于条件不确定性测量$ \Delta ^{x}(F_{N},G_{N})$可以作为误差的上限发生当真正的人口分布函数被一个匹配分布在$H _ { N } ^ { x }$4.27），这些测试程序是有效的为了显示，例如，是否不确定性实际上可以视为零，或限制可忽略的数量，或者如果数据不支持这一假设。设ex besuch正数；例如，它可以是$ \Delta ^{x}(F_{N},G_{N})$的最大值的一个百分比，即$1/6 \approx 0.17$（见[16]）。当$ \Delta ^{x}(F_{N},G_{N})$小于$ \epsilon ^{x}$时，保守的方法会认为匹配分布是“可靠的”分布。
+渐近结果（4.55）和（4.60）允许我们分别对不确定性度量（4.31）和（4.33）定义检验假设步骤。考虑到条件不确定性度量$ \Delta ^{x}(F_{N},G_{N})$可以解释为当真实的总体分布函数被$H _ { N } ^ { x }$4.27）中的匹配分布取代时发生的误差的上界，这些测试程序是有效的。例如，是否不确定性实际上可以视为零，或限制可忽略的数量，或者如果数据不支持这一假设。设ex besuch正数；例如，它可以是$ \Delta ^{x}(F_{N},G_{N})$的最大值的一个百分比，即$1/6 \approx 0.17$（见[16]）。当$ \Delta ^{x}(F_{N},G_{N})$小于$ \epsilon ^{x}$时，保守的方法会认为匹配分布是“可靠的”分布。
 对匹配分布的可靠性的评估可以通过检验以下假设来处理：
 
-$$\left\{ \begin{matrix} H_{0}: \quad \Delta ^{x}(F_{N},G_{N})\leq \epsilon ^{x}\\ H_{1}: \quad \Delta ^{x}(F_{N},G_{N})> \epsilon ^{x}\\ \end{matrix} \right.(4.62)$$
+$$\left\{ \begin{matrix} H_{0}: \quad \Delta ^{x}(F_{N},G_{N})\leq \epsilon ^{x}\\ H_{1}: \quad \Delta ^{x}(F_{N},G_{N})> \epsilon ^{x}\\ \end{matrix} \right.\tag{4.62}$$
 
 给定(渐近)显著水平a，如果满足以下条件，则零假设$H_{0}$被接受
 
 $$ \widehat{\Delta}^{x}\leq \epsilon ^{x}+z_{\alpha}\sqrt{\overline{V}_{x}}(\frac{\widehat{n}_{H,A}(x)\widehat{n}_{H,B}(x)}{\widehat n_{H,A}(x)+ \widehat{n}_{H,B}(x)})^{-1/2}$$
 
 其中，$z_{\alpha}$是标准正态分布的路径分位数，$ \widehat{V}_{x}$是方差的$\widehat{V}(F,G;x)$的适当估计量。
-注意，前面公式中涉及的渐近方差是很尴尬的。一种建议是通过通常的插件规则$F_{N}(y|x)$分别用$F_{H}(y|x)$和$\widehat{F}_{H}(y|x)$和$ \widehat{G}_{H}(z|x)$，或者用复杂设计的重采样方法（cfr.[3]，[13]）来构造估计器$ \widehat{V}_{x}$。显然，对于无条件的不确定性测量（4.33），使用（4.60）也有类似的考虑。
+注意，前面公式中涉及的渐近方差是很尴尬的。一种建议是通过通常的插件规则$F_{N}(y|x)$分别用$G_{N}(z|x)$以及$\widehat{F}_{H}(y|x)$和$\widehat{G}_{H}(z|x),$，或者用复杂设计的重采样方法（cfr.[3]，[13]）来构造估计量$\widehat{V}_{x}$。显然，对于无条件的不确定性测量（4.33），使用（4.60）也有类似的考虑。
 
-注2.在假设的情况下，也就是说，Bootstrap的经典版本可以用来估计方差，如在[18]中所应用的，它包括：(I)产生大小为$n_{A}$的样本$s_{A}$；(ii)产生大小为$n_{B}$的样本$s_{B}$；显然，经典的Bootstrap方法不适用于复杂的调查抽样。Conti等人[18]还详细介绍了来自有限总体的重抽样方法的参考文献，并提到了两种主要方法：即席方法([31]，[37]，[44]，[4]，[11]，[13])和插入式方法([26]，[10]，[28]，[36])。
+注2.在假设的情况下，也就是说，Bootstrap的经典版本可以用来估计方差，如在[18]中所应用的，它包括：(I)产生大小为$n_{A}$的样本$n_{A}$；(ii)产生大小为$n_{B}$的样本$n_{B}$；显然，经典的Bootstrap方法不适用于复杂的调查抽样。Conti等人[18]还详细介绍了来自有限总体的重抽样方法的参考文献，并提到了两种主要方法：即席方法([31]，[37]，[44]，[4]，[11]，[13])和插入式方法([26]，[10]，[28]，[36])。
 
-结论和待决问题：统计匹配问题与生态推理之间的关系
-随着不同的数据源开始共享一个共同的元数据框架，统计匹配将是一个无处不在的问题，并且在一个独特的地方，可以看到既没有联合操作服务的数据，也不能通过单元标识符链接的数据。虽然第一次应用是在20世纪60年代末，但由于重要问题，统计匹配应用不是很复杂：除非引入特定的假设，否则数据不能为描述从未共同观察过的变量之间的联合关系的参数提供点估计；数据可以通过不同的复杂调查设计获得，而且不能直接调和它们。
-正如在第4.2节中所介绍的，统计匹配解决了推断两个从不联合服务的变量的联合分布的问题。这个问题已经在一个不同的框架中进行了独立的分析：生态推理。使这个框架特定的经济学推理：无论如何，这两个领域之间的接触点是如此之多，以至于一起分析它们并可能交换方法和解决方案似乎很重要。“生态推理”利用人口中群体聚集形式的数据，得出关于个体层面关系的结论。这些群体通常在地理上被定义为“[46]”。生态学这个术语似乎是由于这些群体的存在，以及他们通常是根据地理位置设计的事实。事实上，统计匹配并不涉及任何类型的分组，而是使用公共变量X来证实任何类型的对从未共同观察到的变量的推断。尽管有这些相似之处，但在这两种情况下，解决方案并没有被共享。这也由典型的生态推理例子所代表：在选举时，两个政党的选举人票是已知的，以及一些选区根据种族（白人、非白人）划分的选民人数。
-因此，需要建立关于种族和选举投票率扫描的双向列联表，其中边界已知，表内的单元格未知。这正是用X表示区域的统计匹配情况。正如在统计匹配环境中已经指出的，给定符合统计匹配符号的precincts，i.e.（Y，ZX）的种族和选票的联合分布是不可识别的分布。这也是生态推理的兴趣对象。
+### 4.5 结论和待决问题：统计匹配问题与生态学推论之间的关系
 
-给定区域的列联表中的百分比，在一无所知的情况下，是介于0和1之间的值。当每个区域的边界已知时，列联表中百分比的可容许值的空间减少到一条线，即 King [29]称为断层扫描线的那条线。这对应于减少统计匹配的不确定性对二项随机变量给定他们的条件边界。一个细微的差别是，生态推断的重点是在群体(分区)水平上已经汇总的数据。因此，King [29]假设模型在每个区域内生成条件百分比，并在其中工作。相反，统计匹配使用直接模拟任何表格中的任何单个观察([46]将这种方法形式化，区分个人和总体水平的抽样)。此外，给出了群 X，而在统计匹配中，它们被一起建模，感兴趣的变量和有时感兴趣的对象的统计匹配只是成对分布(Y，Z)。请注意，关于 Y 和 Z 的联合分布的不确定性的概念与 X 与 Y 和 Z 之间的关联严格相关。可能，这种轻微的观点变化在两个领域产生了独立的解决方案，因此是时候在同一框架下进行两个领域的研究了。例如，在生态学推论中，King [29]对每个分区的表格内的百分比做出了假设，可以这样总结:
+随着不同的数据源开始共享一个共同的元数据框架，统计匹配将是一个无处不在的问题，并且在一个独特的地方，可以看到既没有联合操作服务的数据，也不能通过单元标识符链接的数据。虽然第一次应用是在20世纪60年代末，但由于重要问题，统计匹配应用不是很复杂：除非引入特定的假设，否则数据不能为描述从未共同观察过的变量之间的联合关系的参数提供点估计；数据可以通过不同的复杂调查设计获得，而且不能直接调和它们。 正如在第4.2节中所介绍的，统计匹配解决了推断两个从不联合服务的变量的联合分布的问题。这个问题已经在一个不同的框架中进行了独立的分析：生态学推论。使这个框架特定的经济学推理：无论如何，这两个领域之间的接触点是如此之多，以至于一起分析它们并可能交换方法和解决方案似乎很重要。“生态学推论”利用人口中群体聚集形式的数据，得出关于个体层面关系的结论。这些群体通常在地理上被定义为“[46]”。生态学这个术语似乎是由于这些群体的存在，以及他们通常是根据地理位置设计的事实。事实上，统计匹配并不涉及任何类型的分组，而是使用公共变量X来证实任何类型的对从未共同观察到的变量的推断。尽管有这些相似之处，但在这两种情况下，解决方案并没有被共享。这也由典型的生态学推论例子所代表：在选举时，两个政党的选举人票是已知的，以及一些选区根据种族（白人、非白人）划分的选民人数。 因此，需要建立关于种族和选举投票率扫描的双向列联表，其中边界已知，表内的单元格未知。这正是用X表示区域的统计匹配情况。正如在统计匹配环境中已经指出的，给定符合统计匹配符号的precincts，i.e.（Y，ZX）的种族和选票的联合分布是不可识别的分布。这也是生态学推论的兴趣对象。
+
+给定区域的列联表中的百分比，在一无所知的情况下，是介于0和1之间的值。当每个区域的边界已知时，列联表中百分比的可容许值的空间减少到一条线，即 King [29]称为断层扫描线的那条线。这对应于减少统计匹配的不确定性对二项随机变量给定他们的条件边界。一个细微的差别是，生态学推论的重点是在群体(分区)水平上已经汇总的数据。因此，King [29]假设模型在每个区域内生成条件百分比，并在其中工作。相反，统计匹配使用直接模拟任何表格中的任何单个观察([46]将这种方法形式化，区分个人和总体水平的抽样)。此外，给出了群 X，而在统计匹配中，它们被一起建模，感兴趣的变量和有时感兴趣的对象的统计匹配只是成对分布(Y，Z)。请注意，关于 Y 和 Z 的联合分布的不确定性的概念与 X 与 Y 和 Z 之间的关联严格相关。可能，这种轻微的观点变化在两个领域产生了独立的解决方案，因此是时候在同一框架下进行两个领域的研究了。例如，在生态学推论中，King [29]对每个分区的表格内的百分比做出了假设，可以这样总结:
 
 1.每个区域的YZ的两个条件百分比共同遵循特定的分布（例如，截断的正态分布）
 
-2.根据观察到的种族百分比，观察到的在不同选区的选民的每个比例是平均独立的（没有空间自相关）
-3.观察到的种族边际比例独立于点1中建模的两个条件百分比。
-在这种情况下，可以对给定种族的选民的条件概率进行最大似然分析或贝叶斯分析。相反，统计匹配已经尽可能地发展为无假设框架（或者更好的是，关于给定X的Y和Z的连续独立性的初始假设显然不令人满意）。统计匹配框架也可以建立在合理的假设之上了。在生态推理或其他领域（例如，小区域模型）中，当数据不能支持分析的目标时，假设并不一定是邪恶的，即使在大多数没有假设的官方统计框架中也是如此。因此，生态推断中发展的方法也应应用于统计匹配目的。一些方法上的挑战仍然存在，这只是一个初步的清单：
+2.根据观察到的种族百分比，观察到的在不同选区的选民的每个比例是平均独立的（没有空间自相关） 
 
-来自生态推断的方法表明，可以重新考虑两个样本调查中共同变量的作用：从共同变量来看，一方面可以考虑协变量（即匹配变量），以及第二阶段的组（阶层）。第二组是建立聚合数据建模的可能性的基础；
-似乎生态推断已经发展为二元Y和Z，而统计匹配不限制可变变量匹配的性质。
-我们认为，这是在这两个领域中交换和重用方法应该遵循的路线。
+3.观察到的种族边际比例独立于点1中建模的两个条件百分比。 
+
+在这种情况下，可以对给定种族的选民的条件概率进行最大似然分析或贝叶斯分析。相反，统计匹配已经尽可能地发展为无假设框架（或者更好的是，关于给定X的Y和Z的连续独立性的初始假设显然不令人满意）。统计匹配框架也可以建立在合理的假设之上了。在生态学推论或其他领域（例如，小区域模型）中，当数据不能支持分析的目标时，假设并不一定是邪恶的，即使在大多数没有假设的官方统计框架中也是如此。因此，生态学推论中发展的方法也应应用于统计匹配目的。一些方法上的挑战仍然存在，这只是一个初步的清单：
+
+来自生态学推论的方法表明，可以重新考虑两个样本调查中共同变量的作用：从共同变量来看，一方面可以考虑协变量（即匹配变量），以及第二阶段的组（阶层）。第二组是建立聚合数据建模的可能性的基础； 似乎生态学推论已经发展为二元Y和Z，而统计匹配不限制可变变量匹配的性质。 我们认为，这是在这两个领域中交换和重用方法应该遵循的路线。
+
+### 参考文献
+
+[1] A. Agresti and M.C. Yang. An empirical investigation of some effects of sparseness in contingency tables. Computational Statistics & Data Analysis, 5:9–21, 1987.
+
+[2] T.W. Anderson. Maximum likelihood estimates for a multivariate normal distribution when some observations are missing. Journal of theAmerican Statistical Association, 52:200–203, 1957.  Uncertainty and Estimation in Statistical Matching 97  
+
+[3] E. Antal and Y. Tille. A direct bootstrap method for complex sampling ´designs from a finite population. Journal of the American Statistical Association, 106:534–543, 2011.
+
+[4] J-F. Beaumont and Z. Patak. On the Generalized Bootstrap for Sample Surveys with Special Attention to Poisson Sampling. International Statistical Review, 80:127–148, 2012.
+
+[5] Y.G. Berger. Asymptotic consistency under large entropy sampling designs with unequal probabilities. Pakistan Journal of Statistics, 27:407– 426, 2011.
+
+[6] Y.G. Berger. Rate of convergence to normal distribution for the HorvitzThompson estimator. Journal of Statistical Planning and Inference, 67:
+209–226, 1998.
+
+[7] W. Bergsma. A bias-correction for Cramer’s V and Tschuprow’s. Journal of the Korean Statistical Society, 42:9–21, 2013.
+
+[8] L. Breiman. Random forests. Machine Learning, 45:5–32, 2001.
+
+[9] L. Breiman, J. H. Friedman, R. A. Olshen, and C. J. Stone. Classification and Regression Trees. Wadsworth, 1984.
+
+[10] M.-T. Chao and S.-H. Lo. A bootstrap method for finite population. Sankhya¯, pages 399–405, 1985.
+
+[11] A. Chatterjee. Asymptotic properties of sample quantiles from a finite population. Annals of the Institute of Statistical Mathematics, 63:157–179, 2011.
+
+[12] P.L. Conti. On the estimation of the distribution function of a finite population under high entropy sampling designs, with applications. Sankhya¯ B. DOI: 10.1007/s13571-014-0083-x, 2014.
+
+[13] P.L. Conti and D. Marella. Inference for quantiles of a finite population: asymptotic vs. resampling results. Sandinavian Journal of Statistics,
+2014.
+
+[14] P.L. Conti, D. Marella, and A. Neri. Statistical matching and uncertainty analysis in combining household income and expenditure data. Statistical Methods & Applications, 26:485–505, 2017.
+
+[15] P.L. Conti, D. Marella, and M. Scanu. Evaluation of matching noise for imputation techniques based on nonparametric local linear regression estimators. Computational Statistics and Data Analysis, 53:354–365, 2008.
+
+[16] P.L. Conti, D. Marella, and M. Scanu. Uncertainty analysis in statistical matching. Journal of Official Statistics, 28:69–88, 2012. 98 Analysis of Integrated Data
+
+[17] P.L. Conti, D. Marella, and M. Scanu. Uncertainty analysis for statistical matching of ordered categorical variables. Computational Statistics and
+Data Analysis, 68:311–325, 2013.
+
+[18] P.L. Conti, D. Marella, and M. Scanu. Statistical matching analysis for complex survey data with applications. Journal of the American Statistical Association, 111:1715–1725, 2016.
+
+[19] P.L. Conti, D. Marella, and M. Scanu. How far from identifiability? a systematic overview of the statistical matching problem in a non parametric framework. Commmunications in Statistics - Theory and Methods, 46:967–994, 2017.
+
+[20] T. De Waal. Statistical matching: experimental results and future research questions. Discussion paper n. 19, CBS, 2015.
+
+[21] G. Donatiello, M. D’Orazio, D. Frattarola, A. Rizzi, Scanu M., and M. Spaziani. The role of the conditional independence assumption in
+statistically matching income and consumption. Statistical Journal of the IAOS, 77:667–675, 2016.
+
+[22] M. D’Orazio, M. Di Zio, and M. Scanu. Auxiliary variable selection in a statistical matching problem. In L.-C. Zhang and R. L. Chambers, editors, Ecological Inference: new methodological strategies. CRC: Chapman and Hall, London.
+
+[23] M. D’Orazio, M. Di Zio, and M. Scanu. Statistical matching: theory and practice. Wiley, Chichester, 2006.
+
+[24] M. D’Orazio, M. Di Zio, and M. Scanu. Uncertainty intervals for nonidentifiable parameters in statistical matching. Proceedings of the 57th
+Session of the International Statistical Institute World Congress, Durban - South Africa, 2009.
+
+[25] B. Efron. Bootstrap methods: another look at the jackknife. The Annals of Statistics, 7:1–26, 1979.
+
+[26] S.T. Gross. Median estimation in sample surveys in: Proceedings of the section on survey reasearch methods. Proceedings of the Section on Survey Research Methods, American Statistical Association, pages 181–184, 1980.
+
+[27] J. Hajek. Asymptotic theory of rejective sampling with varying proba- ´ bilities from a finite population. The Annals of Mathematical Statistics, 35:1491–1523, 1964.
+
+[28] A. Holmberg. A bootstrap approach to probability proportional-to-size sampling. Proceedings of the ASA Section on Survey Research Methods, pages 378–383, 1998.
+Uncertainty and Estimation in Statistical Matching 99
+
+[29] G. King. A solution to the ecological inference problem: reconstructing individual behavior from aggregate data. Princeton University Press, Princeton, 1997.
+
+[30] D. Marella, M. Scanu, and P.L. Conti. On the matching noise of some nonparametric imputation procedures. Statistics and Probability Letters, 78:1593–1600, 2008.
+
+[31] P J. McCarthy and C B. Snowden. The bootstrap and finite population sampling. In Vital and health statistics, pages 1–23. Public Heath Service Publication, U.S. Government Pronting, Washington, DC, 1985.
+
+[32] C. Moriarity and F. Scheuren. Statistical matching: A paradigm for assessing the uncertainty in the procedure. Journal of Official Statistics, pages 407–422, 2001.
+
+[33] R.B. Nelsen. An introduction to copulas. Springer, New York, 1999.
+
+[34] B.A. Okner. Constructing a new data base from existing microdata sets: the 1966 merge file. Annals of Economic and Social Measurement, 1:325– 342, 1972.
+
+[35] S. Raessler. Statistical matching: A Frequentist Theory, Practical Applications, and Alternative Bayesian Approaches. Springer, New York, 2002.
+
+[36] M. G. Ranalli and F. Mecatti. Comparing recent approaches for bootstrapping sample survey data: a first step towards a unified approach. In Proceedings of the ASA Section on Survey Research Methods, pages 4088–4099, 2012.
+
+[37] J N K. Rao and C F J. Wu. Resampling inference with complex survey data. Journal of the American Statistical Association, 83:231–241, 1988.
+
+[38] J. Reiter. Using multiple imputation to integrate and disseminate confidential microdata. International Statistical Review, 77:179–195, 2009.
+
+[39] R.H. Renssen. Use of statistical matching techniques in calibration es. Survey Methodology, 24:171–183, 1998.
+
+[40] D. Rivers. Sampling fom web surveys. In Proceedings of the ASA Section on Survey Research Methods, 2007.
+
+[41] W. L. Rodgers. An evaluation of statistical matching. Journal of Business and Economic Statistics, pages 91–102, 1984.
+
+[42] D B. Rubin. Statistical matching using file concatenation with adjusted weights and multiple imputations. Journal of Business and Economic Statistics, 4:87–94, 1986. 100 Analysis of Integrated Data
+
+[43] C.A. Sims. Comments on: “Constructing a new data base from existing microdata sets: the 1966 merge file”, by B.A. Okner. Annals of Economic and Social Measurements, 1:343–345, 1972.
+
+[44] R R. Sitter. A resampling procedure for complex data. Journal of the American Statistical Association, 87:755–765, 1992.
+
+[45] D. Slepian. The one-sided barrier problem for gaussian noise. Bell System Technical Journal, 41:463–501, 1962.
+
+[46] D.G. Steel, E.J. Beh, and R. L. Chambers. The information in aggregate data. In G. King, O. Rosen, and M.A. Tanner, editors, Ecological Inference: new methodological strategies. Cambridge University Press, Cambridge, 2004.
+
+[47] Y. Tille.´ Sampling Algorithms. Springer, New York, 2006.
+
+[48] C. Wu. Combining information from multiple surveys through the empirical likelihood method. Canadian Journal of Statistics, 32:15–26, 2004.
+
+[49] L.-C. Zhang and R. L. Chambers. Minimal inference from incomplete 2 × 2-tables. In L.-C. Zhang and R. L. Chambers, editors, Analysis of Integrated Data. CRC: Chapman and Hall, London.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
